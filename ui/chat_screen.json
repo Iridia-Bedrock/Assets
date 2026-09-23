@@ -1,0 +1,11 @@
+{
+  "namespace": "chat",
+  
+  "messages_text/text": {
+    "bindings":[{
+      "binding_type": "view",
+      "source_property_name": "(not (#text = 'iridia:clearchat'))",
+      "target_property_name": "#visible"
+    }]
+  }
+}

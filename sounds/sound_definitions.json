@@ -1,0 +1,29 @@
+{
+  "tower.score": {
+    "category": "ui",
+    "sounds": [
+      "sounds/fireworks/launch1"
+    ]
+  },
+  "game.start": {
+    "category": "ui",
+    "sounds": [
+      {
+        "name": "sounds/mob/enderdragon/growl1",
+        "volume": 8
+      },
+      {
+        "name": "sounds/mob/enderdragon/growl2",
+        "volume": 8
+      },
+      {
+        "name": "sounds/mob/enderdragon/growl3",
+        "volume": 8
+      },
+      {
+        "name": "sounds/mob/enderdragon/growl4",
+        "volume": 8
+      }
+    ]
+  }
+}

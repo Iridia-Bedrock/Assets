@@ -1,0 +1,143 @@
+{
+    "namespace": "hud",
+    "chat_grid_item/chat_background": {
+        "bindings": [
+            {
+                "binding_name": "#chat_text",
+                "binding_name_override": "#text",
+                "binding_type": "collection",
+                "binding_collection_name": "chat_text_grid",
+                "binding_condition": "once"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "(not(#text = 'iridia:clearchat'))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "item_name_text_root": {
+        "type": "panel",
+        "size": [
+            "100%cm",
+            "100%cm"
+        ],
+        "$show_interact_padding|default": false,
+        "$show_survival_padding|default": false,
+        "$show_text_background|default": false,
+        "$text_color|default": "$tool_tip_text",
+        "$text_binding|default": "#item_text",
+        "anchor_from": "bottom_middle",
+        "anchor_to": "bottom_middle",
+        "$wait_duration|default": 1,
+        "$destroy_id|default": "item_name_text",
+        "controls": [
+            {
+                "item_text_aligner": {
+                    "type": "stack_panel",
+                    "size": [
+                        "100%cm",
+                        "100%c"
+                    ],
+                    "controls": [
+                        {
+                            "item_text_control": {
+                                "type": "panel",
+                                "size": [
+                                    "100%cm",
+                                    "100%cm"
+                                ],
+                                "controls": [
+                                    {
+                                        "item_text_label": {
+                                            "type": "label",
+                                            "max_size": [
+                                                200,
+                                                "default"
+                                            ],
+                                            "text_alignment": "center",
+                                            "layer": 31,
+                                            "color": "$text_color",
+                                            "text": "#text",
+                                            "alpha": "@hud.anim_item_name_text_alpha_in",
+                                            "shadow": true,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "$text_binding",
+                                                    "binding_name_override": "#text"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "interact_padding@common.empty_panel": {
+                                "visible": "$show_interact_padding",
+                                // To not overlap with the interact button
+                                // the text needs to move up by 18
+                                "size": [
+                                    "100%sm",
+                                    18
+                                ],
+                                "bindings": [
+                                    {
+                                        "binding_name": "#interact_visible",
+                                        "binding_name_override": "#visible",
+                                        "binding_condition": "always"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "survival_buffer@common.empty_panel": {
+                                "visible": "$show_survival_padding",
+                                // Survival HUD has elements above the hot bar
+                                // meaning the text needs to move up
+                                "size": [
+                                    "100%sm",
+                                    17
+                                ],
+                                "bindings": [
+                                    {
+                                        "binding_name": "#show_survival_ui",
+                                        "binding_name_override": "#visible"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "hud_actionbar_text": {
+        "type": "image",
+        "size": [
+            "100%c + 12px",
+            "100%c + 5px"
+        ],
+        "offset": [
+            0,
+            "50%-68px"
+        ],
+        "alpha": "@hud.anim_actionbar_text_background_alpha_out",
+        "controls": [
+            {
+                "actionbar_message": {
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "color": "$tool_tip_text",
+                    "enable_profanity_filter": true,
+                    "layer": 31,
+                    "text": "$actionbar_text",
+                    "shadow": true,
+                    "localize": false,
+                    "alpha": "@hud.anim_actionbar_text_alpha_out"
+                }
+            }
+        ]
+    }
+}

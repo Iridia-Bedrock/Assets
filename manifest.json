@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "😍",
+    "min_engine_version": [
+      1,
+      19,
+      40
+    ],
+    "name": "Iridia",
+    "uuid": "6d3942b5-8980-4c4e-8c1b-b8c7525d0018",
+    "version": [
+      0,
+      0,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "009ed5ec-d148-4154-a578-ed779ea0d7c6",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}
