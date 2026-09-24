@@ -1,0 +1,259 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "i_oak_planks": {
+      "textures": "textures/blocks/planks_oak"
+    },
+    "i_oak_fence": {
+      "textures": "textures/blocks/planks_oak"
+    },
+    "i_oak_slab": {
+      "textures": "textures/blocks/planks_oak"
+    },
+    "i_oak_fence_gate": {
+      "textures": "textures/blocks/planks_oak"
+    },
+    "i_oak_door_upper": {
+      "textures": "textures/blocks/door_wood_upper"
+    },
+    "i_oak_door_lower": {
+      "textures": "textures/blocks/door_wood_lower"
+    },
+    "i_oak_trapdoor": {
+      "textures": "textures/blocks/trapdoor"
+    },
+    "i_spruce_planks": {
+      "textures": "textures/blocks/planks_spruce"
+    },
+    "i_spruce_fence": {
+      "textures": "textures/blocks/planks_spruce"
+    },
+    "i_spruce_slab": {
+      "textures": "textures/blocks/planks_spruce"
+    },
+    "i_spruce_fence_gate": {
+      "textures": "textures/blocks/planks_spruce"
+    },
+    "i_spruce_door_lower": {
+      "textures": "textures/blocks/door_spruce_lower"
+    },
+    "i_spruce_door_upper": {
+      "textures": "textures/blocks/door_spruce_upper"
+    },
+    "i_spruce_trapdoor": {
+      "textures": "textures/blocks/spruce_trapdoor"
+    },
+    "i_birch_planks": {
+      "textures": "textures/blocks/planks_birch"
+    },
+    "i_birch_fence": {
+      "textures": "textures/blocks/planks_birch"
+    },
+    "i_birch_slab": {
+      "textures": "textures/blocks/planks_birch"
+    },
+    "i_birch_fence_gate": {
+      "textures": "textures/blocks/planks_birch"
+    },
+    "i_birch_door_lower": {
+      "textures": "textures/blocks/door_birch_lower"
+    },
+    "i_birch_door_upper": {
+      "textures": "textures/blocks/door_birch_upper"
+    },
+    "i_birch_trapdoor": {
+      "textures": "textures/blocks/birch_trapdoor"
+    },
+    "i_jungle_planks": {
+      "textures": "textures/blocks/planks_jungle"
+    },
+    "i_jungle_fence": {
+      "textures": "textures/blocks/planks_jungle"
+    },
+    "i_jungle_slab": {
+      "textures": "textures/blocks/planks_jungle"
+    },
+    "i_jungle_fence_gate": {
+      "textures": "textures/blocks/planks_jungle"
+    },
+    "i_jungle_door_lower": {
+      "textures": "textures/blocks/door_jungle_lower"
+    },
+    "i_jungle_door_upper": {
+      "textures": "textures/blocks/door_jungle_upper"
+    },
+    "i_jungle_trapdoor": {
+      "textures": "textures/blocks/jungle_trapdoor"
+    },
+    "i_acacia_planks": {
+      "textures": "textures/blocks/planks_acacia"
+    },
+    "i_acacia_fence": {
+      "textures": "textures/blocks/planks_acacia"
+    },
+    "i_acacia_slab": {
+      "textures": "textures/blocks/planks_acacia"
+    },
+    "i_acacia_fence_gate": {
+      "textures": "textures/blocks/planks_acacia"
+    },
+    "i_acacia_door_lower": {
+      "textures": "textures/blocks/door_acacia_lower"
+    },
+    "i_acacia_door_upper": {
+      "textures": "textures/blocks/door_acacia_upper"
+    },
+    "i_acacia_trapdoor": {
+      "textures": "textures/blocks/acacia_trapdoor"
+    },
+    "i_dark_oak_planks": {
+      "textures": "textures/blocks/planks_big_oak"
+    },
+    "i_dark_oak_fence": {
+      "textures": "textures/blocks/planks_big_oak"
+    },
+    "i_dark_oak_slab": {
+      "textures": "textures/blocks/planks_big_oak"
+    },
+    "i_dark_oak_fence_gate": {
+      "textures": "textures/blocks/planks_big_oak"
+    },
+    "i_dark_oak_door_lower": {
+      "textures": "textures/blocks/door_dark_oak_lower"
+    },
+    "i_dark_oak_door_upper": {
+      "textures": "textures/blocks/door_dark_oak_upper"
+    },
+    "i_dark_oak_trapdoor": {
+      "textures": "textures/blocks/dark_oak_trapdoor"
+    },
+    "i_mangrove_planks": {
+      "textures": "textures/blocks/mangrove_planks"
+    },
+    "i_mangrove_fence": {
+      "textures": "textures/blocks/mangrove_planks"
+    },
+    "i_mangrove_slab": {
+      "textures": "textures/blocks/mangrove_planks"
+    },
+    "i_mangrove_fence_gate": {
+      "textures": "textures/blocks/mangrove_planks"
+    },
+    "i_mangrove_door_lower": {
+      "textures": "textures/blocks/mangrove_door_bottom"
+    },
+    "i_mangrove_door_upper": {
+      "textures": "textures/blocks/mangrove_door_top"
+    },
+    "i_mangrove_trapdoor": {
+      "textures": "textures/blocks/mangrove_trapdoor"
+    },
+    "i_cherry_planks": {
+      "textures": "textures/blocks/cherry_planks"
+    },
+    "i_cherry_fence": {
+      "textures": "textures/blocks/cherry_planks"
+    },
+    "i_cherry_slab": {
+      "textures": "textures/blocks/cherry_planks"
+    },
+    "i_cherry_fence_gate": {
+      "textures": "textures/blocks/cherry_planks"
+    },
+    "i_cherry_door_upper": {
+      "textures": "textures/blocks/cherry_door_top"
+    },
+    "i_cherry_door_lower": {
+      "textures": "textures/blocks/cherry_door_bottom"
+    },
+    "i_cherry_trapdoor": {
+      "textures": "textures/blocks/cherry_trapdoor"
+    },
+    "i_bamboo_planks": {
+      "textures": "textures/blocks/bamboo_planks"
+    },
+    "i_bamboo_fence": {
+      "textures": "textures/blocks/bamboo_planks"
+    },
+    "i_bamboo_slab": {
+      "textures": "textures/blocks/bamboo_planks"
+    },
+    "i_bamboo_fence_gate": {
+      "textures": "textures/blocks/bamboo_planks"
+    },
+    "i_bamboo_door_upper": {
+      "textures": "textures/blocks/bamboo_door_top"
+    },
+    "i_bamboo_door_lower": {
+      "textures": "textures/blocks/bamboo_door_bottom"
+    },
+    "i_bamboo_trapdoor": {
+      "textures": "textures/blocks/bamboo_trapdoor"
+    },
+    "i_crimson_planks": {
+      "textures": "textures/blocks/huge_fungus/crimson_planks"
+    },
+    "i_crimson_fence": {
+      "textures": "textures/blocks/huge_fungus/crimson_planks"
+    },
+    "i_crimson_slab": {
+      "textures": "textures/blocks/huge_fungus/crimson_planks"
+    },
+    "i_crimson_fence_gate": {
+      "textures": "textures/blocks/huge_fungus/crimson_planks"
+    },
+    "i_crimson_door_upper": {
+      "textures": "textures/blocks/huge_fungus/crimson_door_top"
+    },
+    "i_crimson_door_lower": {
+      "textures": "textures/blocks/huge_fungus/crimson_door_bottom"
+    },
+    "i_crimson_trapdoor": {
+      "textures": "textures/blocks/huge_fungus/crimson_trapdoor"
+    },
+    "i_warped_planks": {
+      "textures": "textures/blocks/huge_fungus/warped_planks"
+    },
+    "i_warped_fence": {
+      "textures": "textures/blocks/huge_fungus/warped_planks"
+    },
+    "i_warped_slab": {
+      "textures": "textures/blocks/huge_fungus/warped_planks"
+    },
+    "i_warped_fence_gate": {
+      "textures": "textures/blocks/huge_fungus/warped_planks"
+    },
+    "i_warped_door_upper": {
+      "textures": "textures/blocks/huge_fungus/warped_door_top"
+    },
+    "i_warped_door_lower": {
+      "textures": "textures/blocks/huge_fungus/warped_door_bottom"
+    },
+    "i_warped_trapdoor": {
+      "textures": "textures/blocks/huge_fungus/warped_trapdoor"
+    },
+    "i_pale_oak_planks": {
+      "textures": "textures/blocks/pale_oak_planks"
+    },
+    "i_pale_oak_fence": {
+      "textures": "textures/blocks/pale_oak_planks"
+    },
+    "i_pale_oak_slab": {
+      "textures": "textures/blocks/pale_oak_planks"
+    },
+    "i_pale_oak_fence_gate": {
+      "textures": "textures/blocks/pale_oak_planks"
+    },
+    "i_pale_oak_door_upper": {
+      "textures": "textures/blocks/pale_oak_door_top"
+    },
+    "i_pale_oak_door_lower": {
+      "textures": "textures/blocks/pale_oak_door_bottom"
+    },
+    "i_pale_oak_trapdoor": {
+      "textures": "textures/blocks/pale_oak_trapdoor"
+    }
+  }
+}
