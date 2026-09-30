@@ -139,5 +139,2780 @@
                 }
             }
         ]
-    }
+    },
+    "boss_health_panel": {
+    "$bossbar_collection": "boss_bars",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bar_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "collection"
+      }
+    ],
+    "controls": [
+      { "boss_panel_default@hud.boss_panel_default": {} },
+      { "boss_panel_black@hud.boss_panel_black": {} },
+      { "boss_panel_dark_blue@hud.boss_panel_dark_blue": {} },
+      { "boss_panel_dark_green@hud.boss_panel_dark_green": {} },
+      { "boss_panel_dark_aqua@hud.boss_panel_dark_aqua": {} },
+      { "boss_panel_dark_red@hud.boss_panel_dark_red": {} },
+      { "boss_panel_dark_purple@hud.boss_panel_dark_purple": {} },
+      { "boss_panel_gold@hud.boss_panel_gold": {} },
+      { "boss_panel_gray@hud.boss_panel_gray": {} },
+      { "boss_panel_dark_gray@hud.boss_panel_dark_gray": {} },
+      { "boss_panel_blue@hud.boss_panel_blue": {} },
+      { "boss_panel_green@hud.boss_panel_green": {} },
+      { "boss_panel_aqua@hud.boss_panel_aqua": {} },
+      { "boss_panel_red@hud.boss_panel_red": {} },
+      { "boss_panel_light_purple@hud.boss_panel_light_purple": {} },
+      { "boss_panel_yellow@hud.boss_panel_yellow": {} },
+      { "boss_panel_white@hud.boss_panel_white": {} },
+      { "boss_panel_minecoin_gold@hud.boss_panel_minecoin_gold": {} },
+      { "boss_panel_material_quartz@hud.boss_panel_material_quartz": {} },
+      { "boss_panel_material_iron@hud.boss_panel_material_iron": {} },
+      { "boss_panel_material_netherite@hud.boss_panel_material_netherite": {} },
+      { "boss_panel_material_redstone@hud.boss_panel_material_redstone": {} },
+      { "boss_panel_material_copper@hud.boss_panel_material_copper": {} },
+      { "boss_panel_material_gold@hud.boss_panel_material_gold": {} },
+      { "boss_panel_material_emerald@hud.boss_panel_material_emerald": {} },
+      { "boss_panel_material_diamond@hud.boss_panel_material_diamond": {} },
+      { "boss_panel_material_lapis@hud.boss_panel_material_lapis": {} },
+      { "boss_panel_material_amethyst@hud.boss_panel_material_amethyst": {} },
+      { "boss_panel_material_resin@hud.boss_panel_material_resin": {} }
+    ],
+    "size": [
+      182,
+      20
+    ],
+    "type": "panel"
+  },
+  "boss_panel_default": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "#bossName",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_default@hud.bossbar_textures_default": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_default": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/default_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/default_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_black": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§0§0§0§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_black@hud.bossbar_textures_black": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_black": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/black_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/black_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_dark_blue": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§1§1§1§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_dark_blue@hud.bossbar_textures_dark_blue": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_dark_blue": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/dark_blue_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/dark_blue_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_dark_green": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§2§2§2§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_dark_green@hud.bossbar_textures_dark_green": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_dark_green": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/dark_green_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/dark_green_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_dark_aqua": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§3§3§3§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_dark_aqua@hud.bossbar_textures_dark_aqua": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_dark_aqua": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/dark_aqua_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/dark_aqua_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_dark_red": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§4§4§4§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_dark_red@hud.bossbar_textures_dark_red": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_dark_red": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/dark_red_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/dark_red_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_dark_purple": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§5§5§5§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_dark_purple@hud.bossbar_textures_dark_purple": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_dark_purple": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/dark_purple_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/dark_purple_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_gold": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§6§6§6§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_gold@hud.bossbar_textures_gold": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_gold": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/gold_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/gold_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_gray": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§7§7§7§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_gray@hud.bossbar_textures_gray": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_gray": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/gray_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/gray_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_dark_gray": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§8§8§8§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_dark_gray@hud.bossbar_textures_dark_gray": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_dark_gray": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/dark_gray_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/dark_gray_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_blue": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§9§9§9§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_blue@hud.bossbar_textures_blue": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_blue": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/blue_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/blue_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_green": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§a§a§a§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_green@hud.bossbar_textures_green": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_green": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/green_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/green_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_aqua": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§b§b§b§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_aqua@hud.bossbar_textures_aqua": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_aqua": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/aqua_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/aqua_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_red": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§c§c§c§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_red@hud.bossbar_textures_red": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_red": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/red_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/red_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_light_purple": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§d§d§d§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_light_purple@hud.bossbar_textures_light_purple": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_light_purple": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/light_purple_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/light_purple_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_yellow": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§e§e§e§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_yellow@hud.bossbar_textures_yellow": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_yellow": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/yellow_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/yellow_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_white": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§f§f§f§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_white@hud.bossbar_textures_white": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_white": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/white_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/white_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_minecoin_gold": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§g§g§g§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_minecoin_gold@hud.bossbar_textures_minecoin_gold": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_minecoin_gold": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/minecoin_gold_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/minecoin_gold_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_quartz": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§h§h§h§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_quartz@hud.bossbar_textures_material_quartz": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_quartz": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_quartz_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_quartz_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_iron": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§i§i§i§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_iron@hud.bossbar_textures_material_iron": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_iron": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_iron_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_iron_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_netherite": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§j§j§j§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_netherite@hud.bossbar_textures_material_netherite": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_netherite": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_netherite_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_netherite_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_redstone": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§m§m§m§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_redstone@hud.bossbar_textures_material_redstone": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_redstone": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_redstone_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_redstone_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_copper": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§n§n§n§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_copper@hud.bossbar_textures_material_copper": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_copper": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_copper_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_copper_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_gold": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§p§p§p§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_gold@hud.bossbar_textures_material_gold": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_gold": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_gold_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_gold_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_emerald": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§q§q§q§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_emerald@hud.bossbar_textures_material_emerald": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_emerald": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_emerald_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_emerald_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_diamond": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§s§s§s§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_diamond@hud.bossbar_textures_material_diamond": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_diamond": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_diamond_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_diamond_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_lapis": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§t§t§t§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_lapis@hud.bossbar_textures_material_lapis": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_lapis": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_lapis_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_lapis_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_amethyst": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§u§u§u§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_amethyst@hud.bossbar_textures_material_amethyst": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_amethyst": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_amethyst_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_amethyst_filled"
+        }
+      }
+    ]
+  },
+  "boss_panel_material_resin": {
+    "type": "panel",
+    "size": [
+      182,
+      20
+    ],
+    "bindings": [
+      {
+        "binding_collection_name": "boss_bars",
+        "binding_name": "#bossName",
+        "binding_type": "collection"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#bossName - '§v§v§v§r' = #bossName))",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "#bossName",
+          "text_alignment": "center",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": true,
+          "layer": 100,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#bossName",
+              "binding_type": "collection"
+            }
+          ]
+        }
+      },
+      {
+        "bossbar_textures_material_resin@hud.bossbar_textures_material_resin": {
+          "offset": [
+            0,
+            12
+          ]
+        }
+      }
+    ]
+  },
+  "bossbar_textures_material_resin": {
+    "type": "panel",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [
+      182,
+      5
+    ],
+    "controls": [
+      {
+        "empty": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "texture": "textures/bossbar/material_resin_empty",
+          "layer": 98
+        }
+      },
+      {
+        "filled": {
+          "type": "image",
+          "size": [
+            182,
+            5
+          ],
+          "clip_direction": "left",
+          "clip_pixelperfect": false,
+          "layer": 99,
+          "bindings": [
+            {
+              "binding_collection_name": "boss_bars",
+              "binding_name": "#progress_percentage",
+              "binding_name_override": "#clip_ratio",
+              "binding_type": "collection"
+            }
+          ],
+          "texture": "textures/bossbar/material_resin_filled"
+        }
+      }
+    ]
+  }
 }
