@@ -3,6 +3,120 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    "dragon_tree_log_top": {
+      "textures": "textures/blocks/dragon_tree_log_top"
+    },
+    "dragon_tree_log_side": {
+      "textures": "textures/blocks/dragon_tree_log_side"
+    },
+    "dragon_tree_stripped_log_top": {
+      "textures": "textures/blocks/dragon_tree_stripped_log_top"
+    },
+    "dragon_tree_stripped_log_side": {
+      "textures": "textures/blocks/dragon_tree_stripped_log_side"
+    },
+    "dragon_tree_planks": {
+      "textures": "textures/blocks/dragon_tree_planks"
+    },
+    "dragon_tree_slab": {
+      "textures": "textures/blocks/dragon_tree_planks"
+    },
+    "dragon_tree_leaves": {
+      "textures": "textures/blocks/dragon_tree_leaves"
+    },
+    "dragon_tree_fence": {
+      "textures": "textures/blocks/dragon_tree_planks"
+    },
+    "dragon_tree_fence_gate": {
+      "textures": "textures/blocks/dragon_tree_planks"
+    },
+    "dragon_tree_door_upper": {
+      "textures": "textures/blocks/dragon_tree_door_top"
+    },
+    "dragon_tree_door_lower": {
+      "textures": "textures/blocks/dragon_tree_door_bottom"
+    },
+    "dragon_tree_trapdoor": {
+      "textures": "textures/blocks/dragon_tree_trapdoor"
+    },
+    "dragon_tree_sapling": {
+      "textures": "textures/blocks/dragon_tree_sapling"
+    },
+    "pythadendron_log_top": {
+      "textures": "textures/blocks/pythadendron_log_top"
+    },
+    "pythadendron_log_side": {
+      "textures": "textures/blocks/pythadendron_log_side"
+    },
+    "pythadendron_stripped_log_top": {
+      "textures": "textures/blocks/pythadendron_stripped_log_top"
+    },
+    "pythadendron_stripped_log_side": {
+      "textures": "textures/blocks/pythadendron_stripped_log_side"
+    },
+    "pythadendron_planks": {
+      "textures": "textures/blocks/pythadendron_planks"
+    },
+    "pythadendron_slab": {
+      "textures": "textures/blocks/pythadendron_planks"
+    },
+    "pythadendron_leaves": {
+      "textures": "textures/blocks/pythadendron_leaves"
+    },
+    "pythadendron_fence": {
+      "textures": "textures/blocks/pythadendron_planks"
+    },
+    "pythadendron_fence_gate": {
+      "textures": "textures/blocks/pythadendron_planks"
+    },
+    "pythadendron_door_upper": {
+      "textures": "textures/blocks/pythadendron_door_top"
+    },
+    "pythadendron_door_lower": {
+      "textures": "textures/blocks/pythadendron_door_bottom"
+    },
+    "pythadendron_trapdoor": {
+      "textures": "textures/blocks/pythadendron_trapdoor"
+    },
+    "pythadendron_sapling": {
+      "textures": "textures/blocks/pythadendron_sapling"
+    },
+    "chorus_nylium": {
+      "textures": "textures/blocks/chorus_nylium_top"
+    },
+    "chorus_nylium_top": {
+      "textures": "textures/blocks/chorus_nylium_top"
+    },
+    "chorus_nylium_side": {
+      "textures": "textures/blocks/chorus_nylium_side"
+    },
+    "chorus_nylium_path_top": {
+      "textures": "textures/blocks/chorus_nylium_path_top"
+    },
+    "chorus_nylium_path_bottom": {
+      "textures": "textures/blocks/end_stone"
+    },
+    "chorus_nylium_path_side": {
+      "textures": "textures/blocks/chorus_nylium_side"
+    },
+    "shadow_grass": {
+      "textures": "textures/blocks/shadow_grass_top"
+    },
+    "shadow_grass_top": {
+      "textures": "textures/blocks/shadow_grass_top"
+    },
+    "shadow_grass_side": {
+      "textures": "textures/blocks/shadow_grass_side"
+    },
+        "shadow_grass_path_top": {
+      "textures": "textures/blocks/shadow_grass_path_top"
+    },
+    "shadow_grass_path_bottom": {
+      "textures": "textures/blocks/end_stone"
+    },
+    "shadow_grass_path_side": {
+      "textures": "textures/blocks/shadow_grass_side"
+    },
     "i_oak_planks": {
       "textures": "textures/blocks/planks_oak"
     },

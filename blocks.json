@@ -1,4 +1,94 @@
 {
+  "iridia:dragon_tree_log": {
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_stripped_log": {
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_planks": {
+    "textures": "dragon_tree_planks",
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_leaves": {
+    "textures": "dragon_tree_leaves",
+    "sound": "grass"
+  },
+  "iridia:dragon_tree_fence": {
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_fence_gate": {
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_door": {
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_trapdoor": {
+    "sound": "wood"
+  },
+  "iridia:dragon_tree_sapling": {
+    "sound": "grass"
+  },
+  "iridia:pythadendron_log": {
+    "sound": "wood"
+  },
+  "iridia:pythadendron_stripped_log": {
+    "sound": "wood"
+  },
+  "iridia:pythadendron_planks": {
+    "textures": "pythadendron_planks",
+    "sound": "wood"
+  },
+  "iridia:pythadendron_leaves": {
+    "textures": "pythadendron_leaves",
+    "sound": "grass"
+  },
+  "iridia:pythadendron_fence": {
+    "sound": "wood"
+  },
+  "iridia:pythadendron_fence_gate": {
+    "sound": "wood"
+  },
+  "iridia:pythadendron_door": {
+    "sound": "wood"
+  },
+  "iridia:pythadendron_trapdoor": {
+    "sound": "wood"
+  },
+  "iridia:chorus_nylium": {
+    "textures": {
+      "down": "end_stone",
+      "side": "chorus_nylium_side",
+      "up": "chorus_nylium_top"
+    },
+    "sound": "grass"
+  },
+  "iridia:chorus_nylium_path": {
+    "textures": {
+      "down": "end_stone",
+      "side": "chorus_nylium_side",
+      "up": "chorus_nylium_path_top"
+    },
+    "sound": "grass"
+  },
+    "iridia:shadow_grass": {
+    "textures": {
+      "down": "end_stone",
+      "side": "shadow_grass_side",
+      "up": "shadow_grass_top"
+    },
+    "sound": "grass"
+  },
+  "iridia:shadow_grass_path": {
+    "textures": {
+      "down": "end_stone",
+      "side": "shadow_grass_side",
+      "up": "shadow_grass_path_top"
+    },
+    "sound": "grass"
+  },
+  "iridia:pythadendron_sapling": {
+    "sound": "grass"
+  },
   "iridia:i_oak_planks": {
     "textures": "oak_planks",
     "sound": "wood"

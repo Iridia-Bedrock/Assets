@@ -1,6 +1,18 @@
 {
     "resource_pack_name": "Pack-main",
     "texture_data": {
+        "dragon_tree_door": {
+            "textures": "textures/items/dragon_tree_door"
+        },
+        "dragon_tree_sapling": {
+            "textures": "textures/blocks/dragon_tree_sapling"
+        },
+        "pythadendron_door": {
+            "textures": "textures/items/pythadendron_door"
+        },
+        "pythadendron_sapling": {
+            "textures": "textures/blocks/pythadendron_sapling"
+        },
         "i_oak_door": {
             "textures": "textures/items/door_wood"
         },
@@ -38,4 +50,4 @@
             "textures": "textures/items/pale_oak_door"
         }
     }
-}        
+}
