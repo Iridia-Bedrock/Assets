@@ -108,7 +108,7 @@
     "shadow_grass_side": {
       "textures": "textures/blocks/shadow_grass_side"
     },
-        "shadow_grass_path_top": {
+    "shadow_grass_path_top": {
       "textures": "textures/blocks/shadow_grass_path_top"
     },
     "shadow_grass_path_bottom": {
@@ -116,6 +116,42 @@
     },
     "shadow_grass_path_side": {
       "textures": "textures/blocks/shadow_grass_side"
+    },
+    "chorus_grass_0": {
+      "textures": "textures/blocks/chorus_grass_0"
+    },
+    "chorus_grass_1": {
+      "textures": "textures/blocks/chorus_grass_1"
+    },
+    "chorus_grass_2": {
+      "textures": "textures/blocks/chorus_grass_2"
+    },
+    "chorus_grass_3": {
+      "textures": "textures/blocks/chorus_grass_3"
+    },
+    "ivis_moss": {
+      "textures": "textures/blocks/ivis_moss"
+    },
+    "twisted_moss": {
+      "textures": "textures/blocks/twisted_moss"
+    },
+    "shadow_leaf_grass_0": {
+      "textures": "textures/blocks/shadow_leaf_grass_0"
+    },
+    "shadow_leaf_grass_1": {
+      "textures": "textures/blocks/shadow_leaf_grass_1"
+    },
+    "shadow_leaf_grass_2": {
+      "textures": "textures/blocks/shadow_leaf_grass_2"
+    },
+    "shadow_leaf_grass_3": {
+      "textures": "textures/blocks/shadow_leaf_grass_3"
+    },
+    "shadow_plant": {
+      "textures": "textures/blocks/shadow_plant"
+    },
+    "shadow_tail_moss": {
+      "textures": "textures/blocks/shadow_tail_moss"
     },
     "i_oak_planks": {
       "textures": "textures/blocks/planks_oak"

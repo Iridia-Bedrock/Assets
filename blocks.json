@@ -70,7 +70,7 @@
     },
     "sound": "grass"
   },
-    "iridia:shadow_grass": {
+  "iridia:shadow_grass": {
     "textures": {
       "down": "end_stone",
       "side": "shadow_grass_side",
@@ -86,7 +86,22 @@
     },
     "sound": "grass"
   },
-  "iridia:pythadendron_sapling": {
+  "iridia:chorus_grass": {
+    "sound": "grass"
+  },
+  "iridia:ivis_moss": {
+    "sound": "grass"
+  },
+  "iridia:twisted_moss": {
+    "sound": "grass"
+  },
+  "iridia:shadow_leaf_grass": {
+    "sound": "grass"
+  },
+  "iridia:shadow_plant": {
+    "sound": "grass"
+  },
+  "iridia:shadow_tail_moss": {
     "sound": "grass"
   },
   "iridia:i_oak_planks": {
