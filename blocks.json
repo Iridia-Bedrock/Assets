@@ -105,291 +105,1187 @@
     "sound": "grass"
   },
   "iridia:i_oak_planks": {
-    "textures": "oak_planks",
+    "textures": "i_oak_planks",
     "sound": "wood"
   },
   "iridia:i_oak_fence": {
-    "textures": "oak_fence",
     "sound": "wood"
   },
   "iridia:i_oak_slab": {
-    "textures": "oak_slab",
     "sound": "wood"
   },
   "iridia:i_oak_fence_gate": {
-    "textures": "oak_fence_gate",
     "sound": "wood"
   },
   "iridia:i_oak_door": {
-    "textures": "oak_door",
     "sound": "wood"
   },
   "iridia:i_oak_trapdoor": {
-    "textures": "oak_trapdoor",
     "sound": "wood"
   },
   "iridia:i_spruce_planks": {
-    "textures": "spruce_planks",
+    "textures": "i_spruce_planks",
     "sound": "wood"
   },
   "iridia:i_spruce_fence": {
-    "textures": "spruce_fence",
     "sound": "wood"
   },
   "iridia:i_spruce_slab": {
-    "textures": "spruce_slab",
     "sound": "wood"
   },
   "iridia:i_spruce_fence_gate": {
-    "textures": "spruce_fence_gate",
     "sound": "wood"
   },
   "iridia:i_spruce_door": {
-    "textures": "spruce_door",
     "sound": "wood"
   },
   "iridia:i_spruce_trapdoor": {
-    "textures": "spruce_trapdoor",
     "sound": "wood"
   },
   "iridia:i_birch_planks": {
-    "textures": "birch_planks",
+    "textures": "i_birch_planks",
     "sound": "wood"
   },
   "iridia:i_birch_fence": {
-    "textures": "birch_fence",
     "sound": "wood"
   },
   "iridia:i_birch_slab": {
-    "textures": "birch_slab",
     "sound": "wood"
   },
   "iridia:i_birch_fence_gate": {
-    "textures": "birch_fence_gate",
     "sound": "wood"
   },
   "iridia:i_birch_door": {
-    "textures": "birch_door",
     "sound": "wood"
   },
   "iridia:i_birch_trapdoor": {
-    "textures": "birch_trapdoor",
     "sound": "wood"
   },
   "iridia:i_jungle_planks": {
-    "textures": "jungle_planks",
+    "textures": "i_jungle_planks",
     "sound": "wood"
   },
   "iridia:i_jungle_fence": {
-    "textures": "jungle_fence",
     "sound": "wood"
   },
   "iridia:i_jungle_slab": {
-    "textures": "jungle_slab",
     "sound": "wood"
   },
   "iridia:i_jungle_fence_gate": {
-    "textures": "jungle_fence_gate",
     "sound": "wood"
   },
   "iridia:i_jungle_door": {
-    "textures": "jungle_door",
     "sound": "wood"
   },
   "iridia:i_jungle_trapdoor": {
-    "textures": "jungle_trapdoor",
     "sound": "wood"
   },
   "iridia:i_acacia_planks": {
-    "textures": "acacia_planks",
+    "textures": "i_acacia_planks",
     "sound": "wood"
   },
   "iridia:i_acacia_fence": {
-    "textures": "acacia_fence",
     "sound": "wood"
   },
   "iridia:i_acacia_slab": {
-    "textures": "acacia_slab",
     "sound": "wood"
   },
   "iridia:i_acacia_fence_gate": {
-    "textures": "acacia_fence_gate",
     "sound": "wood"
   },
   "iridia:i_acacia_door": {
-    "textures": "acacia_door",
     "sound": "wood"
   },
   "iridia:i_acacia_trapdoor": {
-    "textures": "acacia_trapdoor",
     "sound": "wood"
   },
   "iridia:i_dark_oak_planks": {
-    "textures": "dark_oak_planks",
+    "textures": "i_dark_oak_planks",
     "sound": "wood"
   },
   "iridia:i_dark_oak_fence": {
-    "textures": "dark_oak_fence",
     "sound": "wood"
   },
   "iridia:i_dark_oak_slab": {
-    "textures": "dark_oak_slab",
     "sound": "wood"
   },
   "iridia:i_dark_oak_fence_gate": {
-    "textures": "dark_oak_fence_gate",
     "sound": "wood"
   },
   "iridia:i_dark_oak_door": {
-    "textures": "dark_oak_door",
     "sound": "wood"
   },
   "iridia:i_dark_oak_trapdoor": {
-    "textures": "dark_oak_trapdoor",
     "sound": "wood"
   },
   "iridia:i_mangrove_planks": {
-    "textures": "mangrove_planks",
+    "textures": "i_mangrove_planks",
     "sound": "wood"
   },
   "iridia:i_mangrove_fence": {
-    "textures": "mangrove_fence",
     "sound": "wood"
   },
   "iridia:i_mangrove_slab": {
-    "textures": "mangrove_slab",
     "sound": "wood"
   },
   "iridia:i_mangrove_fence_gate": {
-    "textures": "mangrove_fence_gate",
     "sound": "wood"
   },
   "iridia:i_mangrove_door": {
-    "textures": "mangrove_door",
     "sound": "wood"
   },
   "iridia:i_mangrove_trapdoor": {
-    "textures": "mangrove_trapdoor",
-    "sound": "wood"
-  },
-  "iridia:i_cherry_planks": {
-    "textures": "cherry_planks",
-    "sound": "wood"
-  },
-  "iridia:i_cherry_fence": {
-    "textures": "cherry_fence",
-    "sound": "wood"
-  },
-  "iridia:i_cherry_slab": {
-    "textures": "cherry_slab",
-    "sound": "wood"
-  },
-  "iridia:i_cherry_fence_gate": {
-    "textures": "cherry_fence_gate",
-    "sound": "wood"
-  },
-  "iridia:i_cherry_door": {
-    "textures": "cherry_door",
-    "sound": "wood"
-  },
-  "iridia:i_cherry_trapdoor": {
-    "textures": "cherry_trapdoor",
-    "sound": "wood"
-  },
-  "iridia:i_bamboo_planks": {
-    "textures": "bamboo_planks",
-    "sound": "wood"
-  },
-  "iridia:i_bamboo_fence": {
-    "textures": "bamboo_fence",
-    "sound": "wood"
-  },
-  "iridia:i_bamboo_slab": {
-    "textures": "bamboo_slab",
-    "sound": "wood"
-  },
-  "iridia:i_bamboo_fence_gate": {
-    "textures": "bamboo_fence_gate",
-    "sound": "wood"
-  },
-  "iridia:i_bamboo_door": {
-    "textures": "bamboo_door",
-    "sound": "wood"
-  },
-  "iridia:i_bamboo_trapdoor": {
-    "textures": "bamboo_trapdoor",
     "sound": "wood"
   },
   "iridia:i_crimson_planks": {
-    "textures": "crimson_planks",
+    "textures": "i_crimson_planks",
     "sound": "wood"
   },
   "iridia:i_crimson_fence": {
-    "textures": "crimson_fence",
     "sound": "wood"
   },
   "iridia:i_crimson_slab": {
-    "textures": "crimson_slab",
     "sound": "wood"
   },
   "iridia:i_crimson_fence_gate": {
-    "textures": "crimson_fence_gate",
     "sound": "wood"
   },
   "iridia:i_crimson_door": {
-    "textures": "crimson_door",
     "sound": "wood"
   },
   "iridia:i_crimson_trapdoor": {
-    "textures": "crimson_trapdoor",
-    "sound": "wood"
-  },
-  "iridia:i_pale_oak_planks": {
-    "textures": "pale_oak_planks",
-    "sound": "wood"
-  },
-  "iridia:i_pale_oak_fence": {
-    "textures": "pale_oak_fence",
-    "sound": "wood"
-  },
-  "iridia:i_pale_oak_slab": {
-    "textures": "pale_oak_slab",
-    "sound": "wood"
-  },
-  "iridia:i_pale_oak_fence_gate": {
-    "textures": "pale_oak_fence_gate",
-    "sound": "wood"
-  },
-  "iridia:i_pale_oak_door": {
-    "textures": "pale_oak_door",
-    "sound": "wood"
-  },
-  "iridia:i_pale_oak_trapdoor": {
-    "textures": "pale_oak_trapdoor",
     "sound": "wood"
   },
   "iridia:i_warped_planks": {
-    "textures": "warped_planks",
+    "textures": "i_warped_planks",
     "sound": "wood"
   },
   "iridia:i_warped_fence": {
-    "textures": "warped_fence",
     "sound": "wood"
   },
   "iridia:i_warped_slab": {
-    "textures": "warped_slab",
     "sound": "wood"
   },
   "iridia:i_warped_fence_gate": {
-    "textures": "warped_fence_gate",
     "sound": "wood"
   },
   "iridia:i_warped_door": {
-    "textures": "warped_door",
     "sound": "wood"
   },
   "iridia:i_warped_trapdoor": {
-    "textures": "warped_trapdoor",
     "sound": "wood"
+  },
+  "iridia:i_cherry_planks": {
+    "textures": "i_cherry_planks",
+    "sound": "wood"
+  },
+  "iridia:i_cherry_fence": {
+    "sound": "wood"
+  },
+  "iridia:i_cherry_slab": {
+    "sound": "wood"
+  },
+  "iridia:i_cherry_fence_gate": {
+    "sound": "wood"
+  },
+  "iridia:i_cherry_door": {
+    "sound": "wood"
+  },
+  "iridia:i_cherry_trapdoor": {
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_planks": {
+    "textures": "i_pale_oak_planks",
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_fence": {
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_slab": {
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_fence_gate": {
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_door": {
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_trapdoor": {
+    "sound": "wood"
+  },
+  "iridia:i_white_wool": {
+    "textures": "i_white_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_white_glass": {
+    "textures": "i_white_glass",
+    "sound": "glass"
+  },
+  "iridia:i_white_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_white_concrete": {
+    "textures": "i_white_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_white_concrete_powder": {
+    "textures": "i_white_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_orange_wool": {
+    "textures": "i_orange_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_orange_glass": {
+    "textures": "i_orange_glass",
+    "sound": "glass"
+  },
+  "iridia:i_orange_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_orange_concrete": {
+    "textures": "i_orange_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_orange_concrete_powder": {
+    "textures": "i_orange_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_magenta_wool": {
+    "textures": "i_magenta_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_magenta_glass": {
+    "textures": "i_magenta_glass",
+    "sound": "glass"
+  },
+  "iridia:i_magenta_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_magenta_concrete": {
+    "textures": "i_magenta_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_magenta_concrete_powder": {
+    "textures": "i_magenta_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_light_blue_wool": {
+    "textures": "i_light_blue_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_light_blue_glass": {
+    "textures": "i_light_blue_glass",
+    "sound": "glass"
+  },
+  "iridia:i_light_blue_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_light_blue_concrete": {
+    "textures": "i_light_blue_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_light_blue_concrete_powder": {
+    "textures": "i_light_blue_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_yellow_wool": {
+    "textures": "i_yellow_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_yellow_glass": {
+    "textures": "i_yellow_glass",
+    "sound": "glass"
+  },
+  "iridia:i_yellow_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_yellow_concrete": {
+    "textures": "i_yellow_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_yellow_concrete_powder": {
+    "textures": "i_yellow_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_lime_wool": {
+    "textures": "i_lime_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_lime_glass": {
+    "textures": "i_lime_glass",
+    "sound": "glass"
+  },
+  "iridia:i_lime_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_lime_concrete": {
+    "textures": "i_lime_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_lime_concrete_powder": {
+    "textures": "i_lime_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_pink_wool": {
+    "textures": "i_pink_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_pink_glass": {
+    "textures": "i_pink_glass",
+    "sound": "glass"
+  },
+  "iridia:i_pink_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_pink_concrete": {
+    "textures": "i_pink_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_pink_concrete_powder": {
+    "textures": "i_pink_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_gray_wool": {
+    "textures": "i_gray_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_gray_glass": {
+    "textures": "i_gray_glass",
+    "sound": "glass"
+  },
+  "iridia:i_gray_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_gray_concrete": {
+    "textures": "i_gray_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_gray_concrete_powder": {
+    "textures": "i_gray_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_light_gray_wool": {
+    "textures": "i_light_gray_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_light_gray_glass": {
+    "textures": "i_light_gray_glass",
+    "sound": "glass"
+  },
+  "iridia:i_light_gray_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_light_gray_concrete": {
+    "textures": "i_light_gray_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_light_gray_concrete_powder": {
+    "textures": "i_light_gray_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_cyan_wool": {
+    "textures": "i_cyan_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_cyan_glass": {
+    "textures": "i_cyan_glass",
+    "sound": "glass"
+  },
+  "iridia:i_cyan_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_cyan_concrete": {
+    "textures": "i_cyan_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_cyan_concrete_powder": {
+    "textures": "i_cyan_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_purple_wool": {
+    "textures": "i_purple_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_purple_glass": {
+    "textures": "i_purple_glass",
+    "sound": "glass"
+  },
+  "iridia:i_purple_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_purple_concrete": {
+    "textures": "i_purple_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_purple_concrete_powder": {
+    "textures": "i_purple_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_blue_wool": {
+    "textures": "i_blue_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_blue_glass": {
+    "textures": "i_blue_glass",
+    "sound": "glass"
+  },
+  "iridia:i_blue_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_blue_concrete": {
+    "textures": "i_blue_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_blue_concrete_powder": {
+    "textures": "i_blue_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_brown_wool": {
+    "textures": "i_brown_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_brown_glass": {
+    "textures": "i_brown_glass",
+    "sound": "glass"
+  },
+  "iridia:i_brown_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_brown_concrete": {
+    "textures": "i_brown_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_brown_concrete_powder": {
+    "textures": "i_brown_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_green_wool": {
+    "textures": "i_green_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_green_glass": {
+    "textures": "i_green_glass",
+    "sound": "glass"
+  },
+  "iridia:i_green_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_green_concrete": {
+    "textures": "i_green_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_green_concrete_powder": {
+    "textures": "i_green_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_red_wool": {
+    "textures": "i_red_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_red_glass": {
+    "textures": "i_red_glass",
+    "sound": "glass"
+  },
+  "iridia:i_red_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_red_concrete": {
+    "textures": "i_red_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_red_concrete_powder": {
+    "textures": "i_red_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_black_wool": {
+    "textures": "i_black_wool",
+    "sound": "cloth"
+  },
+  "iridia:i_black_glass": {
+    "textures": "i_black_glass",
+    "sound": "glass"
+  },
+  "iridia:i_black_glass_pane": {
+    "sound": "glass"
+  },
+  "iridia:i_black_concrete": {
+    "textures": "i_black_concrete",
+    "sound": "stone"
+  },
+  "iridia:i_black_concrete_powder": {
+    "textures": "i_black_concrete_powder",
+    "sound": "sand"
+  },
+  "iridia:i_stone": {
+    "textures": "i_stone",
+    "sound": "stone"
+  },
+  "iridia:i_andesite": {
+    "textures": "i_andesite",
+    "sound": "stone"
+  },
+  "iridia:i_diorite": {
+    "textures": "i_diorite",
+    "sound": "stone"
+  },
+  "iridia:i_granite": {
+    "textures": "i_granite",
+    "sound": "stone"
+  },
+  "iridia:i_stone_bricks": {
+    "textures": "i_stone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_mossy_stone_bricks": {
+    "textures": "i_mossy_stone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_cracked_stone_bricks": {
+    "textures": "i_cracked_stone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_chiseled_stone_bricks": {
+    "textures": "i_chiseled_stone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_smooth_stone": {
+    "textures": "i_smooth_stone",
+    "sound": "stone"
+  },
+  "iridia:i_cobblestone": {
+    "textures": "i_cobblestone",
+    "sound": "stone"
+  },
+  "iridia:i_dirt": {
+    "textures": "i_dirt",
+    "sound": "gravel"
+  },
+  "iridia:i_end_stone_bricks": {
+    "textures": "i_end_stone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_gilded_blackstone": {
+    "textures": "i_gilded_blackstone",
+    "sound": "stone"
+  },
+  "iridia:i_polished_blackstone": {
+    "textures": "i_polished_blackstone",
+    "sound": "stone"
+  },
+  "iridia:i_chiseled_polished_blackstone": {
+    "textures": "i_chiseled_polished_blackstone",
+    "sound": "stone"
+  },
+  "iridia:i_polished_blackstone_bricks": {
+    "textures": "i_polished_blackstone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_cracked_polished_blackstone_bricks": {
+    "textures": "i_cracked_polished_blackstone_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_chiseled_deepslate": {
+    "textures": "i_chiseled_deepslate",
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_deepslate_bricks": {
+    "textures": "i_deepslate_bricks",
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_cracked_deepslate_bricks": {
+    "textures": "i_cracked_deepslate_bricks",
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_deepslate_tiles": {
+    "textures": "i_deepslate_tiles",
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_cracked_deepslate_tiles": {
+    "textures": "i_cracked_deepslate_tiles",
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_blackstone": {
+    "textures": {
+      "up": "i_blackstone_top",
+      "down": "i_blackstone_top",
+      "side": "i_blackstone"
+    },
+    "sound": "stone"
+  },
+  "iridia:i_blackstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_blackstone_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_polished_blackstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_polished_blackstone_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_polished_blackstone_brick_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_polished_blackstone_brick_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_deepslate_brick_slab": {
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_deepslate_brick_wall": {
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_deepslate_tile_slab": {
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_deepslate_tile_wall": {
+    "sound": "deepslate_bricks"
+  },
+  "iridia:i_end_stone_brick_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_cobblestone_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_brick_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_mossy_cobblestone_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_nether_brick_wall": {
+    "sound": "nether_brick"
+  },
+  "iridia:i_red_nether_brick_wall": {
+    "sound": "nether_brick"
+  },
+  "iridia:i_stone_brick_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_mossy_stone_brick_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_granite_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_diorite_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_andesite_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_prismarine_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_red_sandstone_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_sandstone_wall": {
+    "sound": "stone"
+  },
+  "iridia:i_mossy_cobblestone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_cobbled_deepslate": {
+    "textures": "i_cobbled_deepslate",
+    "sound": "deepslate"
+  },
+  "iridia:i_cobbled_deepslate_slab": {
+    "sound": "deepslate"
+  },
+  "iridia:i_cobbled_deepslate_wall": {
+    "sound": "deepslate"
+  },
+  "iridia:i_bricks": {
+    "textures": "i_bricks",
+    "sound": "stone"
+  },
+  "iridia:i_deepslate": {
+    "textures": {
+      "up": "i_deepslate_top",
+      "down": "i_deepslate_bottom",
+      "side": "i_deepslate"
+    },
+    "sound": "deepslate"
+  },
+  "iridia:i_polished_deepslate": {
+    "textures": "i_polished_deepslate",
+    "sound": "deepslate"
+  },
+  "iridia:i_polished_deepslate_slab": {
+    "sound": "deepslate"
+  },
+  "iridia:i_polished_deepslate_wall": {
+    "sound": "deepslate"
+  },
+  "iridia:i_brick_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_cobblestone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_nether_brick_slab": {
+    "sound": "nether_brick"
+  },
+  "iridia:i_quartz_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_sandstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_smooth_stone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_stone_brick_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_red_nether_brick_slab": {
+    "sound": "nether_brick"
+  },
+  "iridia:i_red_sandstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_smooth_sandstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_cut_red_sandstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_cut_sandstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_purpur_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_smooth_red_sandstone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_smooth_quartz_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_stone_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_end_stone_brick_slab": {
+    "sound": "stone"
+  },
+  "iridia:i_crafting_table": {
+    "textures": {
+      "up": "i_crafting_table_top",
+      "down": "i_crafting_table_bottom",
+      "north": "i_crafting_table_front",
+      "south": "i_crafting_table_front",
+      "east": "i_crafting_table",
+      "west": "i_crafting_table"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_furnace": {
+    "textures": {
+      "up": "i_furnace_top",
+      "down": "i_furnace_top",
+      "north": "i_furnace_front",
+      "south": "i_furnace",
+      "east": "i_furnace",
+      "west": "i_furnace"
+    },
+    "sound": "stone"
+  },
+  "iridia:i_bamboo_planks": {
+    "textures": "i_bamboo_planks",
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_bamboo_fence": {
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_bamboo_slab": {
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_bamboo_fence_gate": {
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_bamboo_door": {
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_bamboo_trapdoor": {
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_oak_log": {
+    "textures": {
+      "up": "i_oak_log_top",
+      "down": "i_oak_log_top",
+      "side": "i_oak_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_oak_wood": {
+    "textures": {
+      "up": "i_oak_wood_top",
+      "down": "i_oak_wood_top",
+      "side": "i_oak_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_spruce_log": {
+    "textures": {
+      "up": "i_spruce_log_top",
+      "down": "i_spruce_log_top",
+      "side": "i_spruce_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_spruce_wood": {
+    "textures": {
+      "up": "i_spruce_wood_top",
+      "down": "i_spruce_wood_top",
+      "side": "i_spruce_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_birch_log": {
+    "textures": {
+      "up": "i_birch_log_top",
+      "down": "i_birch_log_top",
+      "side": "i_birch_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_birch_wood": {
+    "textures": {
+      "up": "i_birch_wood_top",
+      "down": "i_birch_wood_top",
+      "side": "i_birch_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_jungle_log": {
+    "textures": {
+      "up": "i_jungle_log_top",
+      "down": "i_jungle_log_top",
+      "side": "i_jungle_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_jungle_wood": {
+    "textures": {
+      "up": "i_jungle_wood_top",
+      "down": "i_jungle_wood_top",
+      "side": "i_jungle_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_acacia_log": {
+    "textures": {
+      "up": "i_acacia_log_top",
+      "down": "i_acacia_log_top",
+      "side": "i_acacia_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_acacia_wood": {
+    "textures": {
+      "up": "i_acacia_wood_top",
+      "down": "i_acacia_wood_top",
+      "side": "i_acacia_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_dark_oak_log": {
+    "textures": {
+      "up": "i_dark_oak_log_top",
+      "down": "i_dark_oak_log_top",
+      "side": "i_dark_oak_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_dark_oak_wood": {
+    "textures": {
+      "up": "i_dark_oak_wood_top",
+      "down": "i_dark_oak_wood_top",
+      "side": "i_dark_oak_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_mangrove_log": {
+    "textures": {
+      "up": "i_mangrove_log_top",
+      "down": "i_mangrove_log_top",
+      "side": "i_mangrove_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_mangrove_wood": {
+    "textures": {
+      "up": "i_mangrove_wood_top",
+      "down": "i_mangrove_wood_top",
+      "side": "i_mangrove_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_cherry_log": {
+    "textures": {
+      "up": "i_cherry_log_top",
+      "down": "i_cherry_log_top",
+      "side": "i_cherry_log_side"
+    },
+    "sound": "cherry_wood"
+  },
+  "iridia:i_cherry_wood": {
+    "textures": {
+      "up": "i_cherry_wood_top",
+      "down": "i_cherry_wood_top",
+      "side": "i_cherry_wood_side"
+    },
+    "sound": "cherry_wood"
+  },
+  "iridia:i_pale_oak_log": {
+    "textures": {
+      "up": "i_pale_oak_log_top",
+      "down": "i_pale_oak_log_top",
+      "side": "i_pale_oak_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_wood": {
+    "textures": {
+      "up": "i_pale_oak_wood_top",
+      "down": "i_pale_oak_wood_top",
+      "side": "i_pale_oak_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_crimson_stem": {
+    "textures": {
+      "up": "i_crimson_stem_top",
+      "down": "i_crimson_stem_top",
+      "side": "i_crimson_stem_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_crimson_hyphae": {
+    "textures": {
+      "up": "i_crimson_hyphae_top",
+      "down": "i_crimson_hyphae_top",
+      "side": "i_crimson_hyphae_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_warped_stem": {
+    "textures": {
+      "up": "i_warped_stem_top",
+      "down": "i_warped_stem_top",
+      "side": "i_warped_stem_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_warped_hyphae": {
+    "textures": {
+      "up": "i_warped_hyphae_top",
+      "down": "i_warped_hyphae_top",
+      "side": "i_warped_hyphae_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_bamboo_block": {
+    "textures": {
+      "up": "i_bamboo_block_top",
+      "down": "i_bamboo_block_top",
+      "side": "i_bamboo_block_side"
+    },
+    "sound": "bamboo_wood"
+  },
+  "iridia:i_mossy_cobblestone": {
+    "textures": "i_mossy_cobblestone",
+    "sound": "stone"
+  },
+  "iridia:i_end_stone": {
+    "textures": "i_end_stone",
+    "sound": "stone"
+  },
+  "iridia:i_oak_stripped_log": {
+    "textures": {
+      "up": "i_oak_stripped_log_top",
+      "down": "i_oak_stripped_log_top",
+      "side": "i_oak_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_oak_stripped_wood": {
+    "textures": {
+      "up": "i_oak_stripped_wood_top",
+      "down": "i_oak_stripped_wood_top",
+      "side": "i_oak_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_spruce_stripped_log": {
+    "textures": {
+      "up": "i_spruce_stripped_log_top",
+      "down": "i_spruce_stripped_log_top",
+      "side": "i_spruce_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_spruce_stripped_wood": {
+    "textures": {
+      "up": "i_spruce_stripped_wood_top",
+      "down": "i_spruce_stripped_wood_top",
+      "side": "i_spruce_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_birch_stripped_log": {
+    "textures": {
+      "up": "i_birch_stripped_log_top",
+      "down": "i_birch_stripped_log_top",
+      "side": "i_birch_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_birch_stripped_wood": {
+    "textures": {
+      "up": "i_birch_stripped_wood_top",
+      "down": "i_birch_stripped_wood_top",
+      "side": "i_birch_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_jungle_stripped_log": {
+    "textures": {
+      "up": "i_jungle_stripped_log_top",
+      "down": "i_jungle_stripped_log_top",
+      "side": "i_jungle_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_jungle_stripped_wood": {
+    "textures": {
+      "up": "i_jungle_stripped_wood_top",
+      "down": "i_jungle_stripped_wood_top",
+      "side": "i_jungle_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_acacia_stripped_log": {
+    "textures": {
+      "up": "i_acacia_stripped_log_top",
+      "down": "i_acacia_stripped_log_top",
+      "side": "i_acacia_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_acacia_stripped_wood": {
+    "textures": {
+      "up": "i_acacia_stripped_wood_top",
+      "down": "i_acacia_stripped_wood_top",
+      "side": "i_acacia_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_dark_oak_stripped_log": {
+    "textures": {
+      "up": "i_dark_oak_stripped_log_top",
+      "down": "i_dark_oak_stripped_log_top",
+      "side": "i_dark_oak_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_dark_oak_stripped_wood": {
+    "textures": {
+      "up": "i_dark_oak_stripped_wood_top",
+      "down": "i_dark_oak_stripped_wood_top",
+      "side": "i_dark_oak_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_mangrove_stripped_log": {
+    "textures": {
+      "up": "i_mangrove_stripped_log_top",
+      "down": "i_mangrove_stripped_log_top",
+      "side": "i_mangrove_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_mangrove_stripped_wood": {
+    "textures": {
+      "up": "i_mangrove_stripped_wood_top",
+      "down": "i_mangrove_stripped_wood_top",
+      "side": "i_mangrove_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_cherry_stripped_log": {
+    "textures": {
+      "up": "i_cherry_stripped_log_top",
+      "down": "i_cherry_stripped_log_top",
+      "side": "i_cherry_stripped_log_side"
+    },
+    "sound": "cherry_wood"
+  },
+  "iridia:i_cherry_stripped_wood": {
+    "textures": {
+      "up": "i_cherry_stripped_wood_top",
+      "down": "i_cherry_stripped_wood_top",
+      "side": "i_cherry_stripped_wood_side"
+    },
+    "sound": "cherry_wood"
+  },
+  "iridia:i_pale_oak_stripped_log": {
+    "textures": {
+      "up": "i_pale_oak_stripped_log_top",
+      "down": "i_pale_oak_stripped_log_top",
+      "side": "i_pale_oak_stripped_log_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_pale_oak_stripped_wood": {
+    "textures": {
+      "up": "i_pale_oak_stripped_wood_top",
+      "down": "i_pale_oak_stripped_wood_top",
+      "side": "i_pale_oak_stripped_wood_side"
+    },
+    "sound": "wood"
+  },
+  "iridia:i_crimson_stripped_stem": {
+    "textures": {
+      "up": "i_crimson_stripped_stem_top",
+      "down": "i_crimson_stripped_stem_top",
+      "side": "i_crimson_stripped_stem_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_crimson_stripped_hyphae": {
+    "textures": {
+      "up": "i_crimson_stripped_hyphae_top",
+      "down": "i_crimson_stripped_hyphae_top",
+      "side": "i_crimson_stripped_hyphae_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_warped_stripped_stem": {
+    "textures": {
+      "up": "i_warped_stripped_stem_top",
+      "down": "i_warped_stripped_stem_top",
+      "side": "i_warped_stripped_stem_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_warped_stripped_hyphae": {
+    "textures": {
+      "up": "i_warped_stripped_hyphae_top",
+      "down": "i_warped_stripped_hyphae_top",
+      "side": "i_warped_stripped_hyphae_side"
+    },
+    "sound": "stem"
+  },
+  "iridia:i_bamboo_stripped_block": {
+    "textures": {
+      "up": "i_bamboo_stripped_block_top",
+      "down": "i_bamboo_stripped_block_top",
+      "side": "i_bamboo_stripped_block_side"
+    },
+    "sound": "bamboo_wood"
   }
 }
