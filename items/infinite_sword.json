@@ -1,0 +1,11 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "iridia:infinite_sword"
+		},
+		"components": {
+			"minecraft:icon": "infinite_sword"
+		}
+	}
+}

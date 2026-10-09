@@ -40,6 +40,9 @@
         "raw_iris": {
             "textures": "textures/items/raw_iris"
         },
+        "infinite_sword": {
+            "textures": "textures/items/diamond_sword"
+        },
         "dragon_tree_door": {
             "textures": "textures/items/dragon_tree_door"
         },
