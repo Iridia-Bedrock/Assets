@@ -1,0 +1,107 @@
+{
+    "resource_pack_name": "Pack-main",
+    "texture_data": {
+        "iris_axe": {
+            "textures": "textures/items/iris_axe"
+        },
+        "iris_boots": {
+            "textures": "textures/items/iris_boots"
+        },
+        "iris_chestplate": {
+            "textures": "textures/items/iris_chestplate"
+        },
+        "iris_helmet": {
+            "textures": "textures/items/iris_helmet"
+        },
+        "iris_hoe": {
+            "textures": "textures/items/iris_hoe"
+        },
+        "iris_leggings": {
+            "textures": "textures/items/iris_leggings"
+        },
+        "iris_nugget": {
+            "textures": "textures/items/iris_nugget"
+        },
+        "iris_pickaxe": {
+            "textures": "textures/items/iris_pickaxe"
+        },
+        "iris_scrap": {
+            "textures": "textures/items/iris_scrap"
+        },
+        "iris_shovel": {
+            "textures": "textures/items/iris_shovel"
+        },
+        "iris_sword": {
+            "textures": "textures/items/iris_sword"
+        },
+        "iris": {
+            "textures": "textures/items/iris"
+        },
+        "dragon_tree_door": {
+            "textures": "textures/items/dragon_tree_door"
+        },
+        "dragon_tree_sapling": {
+            "textures": "textures/blocks/dragon_tree_sapling"
+        },
+        "pythadendron_door": {
+            "textures": "textures/items/pythadendron_door"
+        },
+        "pythadendron_sapling": {
+            "textures": "textures/blocks/pythadendron_sapling"
+        },
+        "chorus_grass": {
+            "textures": "textures/blocks/chorus_grass_0"
+        },
+        "ivis_moss": {
+            "textures": "textures/blocks/ivis_moss"
+        },
+        "twisted_moss": {
+            "textures": "textures/blocks/twisted_moss"
+        },
+        "shadow_leaf_grass": {
+            "textures": "textures/blocks/shadow_leaf_grass_0"
+        },
+        "shadow_plant": {
+            "textures": "textures/blocks/shadow_plant"
+        },
+        "shadow_tail_moss": {
+            "textures": "textures/blocks/shadow_tail_moss"
+        },
+        "i_oak_door": {
+            "textures": "textures/items/door_wood"
+        },
+        "i_spruce_door": {
+            "textures": "textures/items/door_spruce"
+        },
+        "i_birch_door": {
+            "textures": "textures/items/door_birch"
+        },
+        "i_jungle_door": {
+            "textures": "textures/items/door_jungle"
+        },
+        "i_acacia_door": {
+            "textures": "textures/items/door_acacia"
+        },
+        "i_dark_oak_door": {
+            "textures": "textures/items/door_dark_oak"
+        },
+        "i_crimson_door": {
+            "textures": "textures/items/crimson_door"
+        },
+        "i_warped_door": {
+            "textures": "textures/items/warped_door"
+        },
+        "i_mangrove_door": {
+            "textures": "textures/items/mangrove_door"
+        },
+        "i_bamboo_door": {
+            "textures": "textures/items/bamboo_door"
+        },
+        "i_cherry_door": {
+            "textures": "textures/items/cherry_door"
+        },
+        "i_pale_oak_door": {
+            "textures": "textures/items/pale_oak_door"
+        }
+    }
+}
