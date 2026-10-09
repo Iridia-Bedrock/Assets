@@ -1113,10 +1113,10 @@
     "sound": "stone"
   },
   "iridia:i_oak_stripped_log": {
-    "textures" : {
-      "up" : "i_oak_stripped_log_top",
-      "down" : "i_oak_stripped_oak_log_top",
-      "side" : "i_oak_stripped_oak_log_side"
+    "textures": {
+      "up": "i_oak_stripped_log_top",
+      "down": "i_oak_stripped_log_top",
+      "side": "i_oak_stripped_log_side"
     },
     "sound": "wood"
   },
