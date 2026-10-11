@@ -43,6 +43,12 @@
         "infinite_sword": {
             "textures": "textures/items/diamond_sword"
         },
+        "devourer_sword": {
+            "textures": "textures/items/diamond_sword"
+        },
+        "bloody_sword": {
+            "textures": "textures/items/diamond_sword"
+        },
         "dragon_tree_door": {
             "textures": "textures/items/dragon_tree_door"
         },
