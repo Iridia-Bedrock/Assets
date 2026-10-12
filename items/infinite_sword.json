@@ -5,7 +5,7 @@
 			"identifier": "iridia:infinite_sword"
 		},
 		"components": {
-			"minecraft:icon": "infinite_sword"
+			"minecraft:icon": "diamond_sword"
 		}
 	}
 }

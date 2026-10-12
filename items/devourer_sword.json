@@ -5,7 +5,7 @@
 			"identifier": "iridia:devourer_sword"
 		},
 		"components": {
-			"minecraft:icon": "devourer_sword"
+			"minecraft:icon": "diamond_sword"
 		}
 	}
 }

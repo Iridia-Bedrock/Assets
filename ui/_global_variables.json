@@ -1,0 +1,34 @@
+{
+  //////// Color format colors ////////
+  "$0_color_format": [ 0.0, 0.0, 0.0 ], // Black
+  "$1_color_format": [ 0.0, 0.0, 0.667 ], // Dark Blue
+  "$2_color_format": [ 0.0, 0.667, 0 ], // Dark Green
+  "$3_color_format": [ 0.0, 0.667, 0.667 ], // Dark Aqua
+  "$4_color_format": [ 0.667, 0.0, 0.0 ], // Dark Red
+  "$5_color_format": [ 0.667, 0.0, 0.667 ], // Dark Purple
+  "$6_color_format": [ 1.0, 0.667, 0.0 ], // Gold
+  "$7_color_format": [ 0.776, 0.776, 0.776 ], // Gray
+  "$8_color_format": [ 0.333, 0.333, 0.333 ], // Dark Gray
+  "$9_color_format": [ 0.333, 0.333, 1.0 ], // Blue
+  "$a_color_format": [ 0.333, 1.0, 0.333 ], // Green
+  "$b_color_format": [ 0.333, 1.0, 1.0 ], // Aqua
+  "$c_color_format": [ 1.0, 0.333, 0.333 ], // Red
+  "$d_color_format": [ 1.0, 0.333, 1.0 ], // Light Purple
+  "$e_color_format": [ 1.0, 1.0, 0.333 ], // Yellow
+  "$f_color_format": [ 1.0, 1.0, 1.0 ], // White
+
+  //////// Trim materials colors ////////
+  "$material_quartz_color": [ 0.851, 0.8, 0.722 ],
+  "$material_iron_color": [ 0.663, 0.706, 0.718 ],
+  "$material_netherite_color": [ 0.561, 0.448, 0.491 ],
+  "$material_redstone_color": [ 0.934, 0.134, 0.173 ],
+  "$material_copper_color": [ 0.785, 0.451, 0.389 ],
+  "$material_gold_color": [ 1.0, 0.750, 0.118 ],
+  "$material_emerald_color": [ 0.075, 0.628, 0.271 ],
+  "$material_diamond_color": [ 0.373, 0.926, 1.0 ],
+  "$material_lapis_color": [ 0.342, 0.483, 1.0 ],
+  "$material_amethyst_color": [ 0.714, 0.424, 0.867 ],
+  "$material_resin_color": [ 1.0, 0.416, 0.0 ],
+
+
+}
