@@ -3,15 +3,24 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
-
     "dragon_tree_planks": { "textures": "textures/blocks/dragon_tree_planks" },
     "pythadendron_planks": { "textures": "textures/blocks/pythadendron_planks" },
 
     "dragon_tree_slab": { "textures": "textures/blocks/dragon_tree_planks" },
     "pythadendron_slab": { "textures": "textures/blocks/pythadendron_planks" },
+    "end_stone_slab": { "textures": "textures/blocks/end_stone" },
+    "dirt_slab": { "textures": "textures/blocks/dirt" },
+    "moss_slab": { "textures": "textures/blocks/moss_block" },
+    "pale_moss_slab": { "textures": "textures/blocks/pale_moss_block" },
 
     "dragon_tree_stairs": { "textures": "textures/blocks/dragon_tree_planks" },
     "pythadendron_stairs": { "textures": "textures/blocks/pythadendron_planks" },
+    "end_stone_stairs": { "textures": "textures/blocks/end_stone" },
+    "dirt_stairs": { "textures": "textures/blocks/dirt" },
+    "moss_stairs": { "textures": "textures/blocks/moss_block" },
+    "pale_moss_stairs": { "textures": "textures/blocks/pale_moss_block" },
+
+    "end_stone_wall": { "textures": "textures/blocks/end_stone" },
 
     "dragon_tree_fence": { "textures": "textures/blocks/dragon_tree_planks" },
     "pythadendron_fence": { "textures": "textures/blocks/pythadendron_planks" },
@@ -41,6 +50,7 @@
     "pythadendron_leaves": { "textures": "textures/blocks/pythadendron_leaves" },
 
     "dragon_tree_sapling": { "textures": "textures/blocks/dragon_tree_sapling" },
+    "pythadendron_sapling": { "textures": "textures/blocks/pythadendron_sapling" },
 
     "chorus_grass_0": { "textures": "textures/blocks/chorus_grass_0" },
     "chorus_grass_1": { "textures": "textures/blocks/chorus_grass_1" },
@@ -271,27 +281,6 @@
     "i_bamboo_block_side": { "textures": "textures/blocks/bamboo_block" },
     "i_bamboo_stripped_block_top": { "textures": "textures/blocks/stripped_bamboo_block_top" },
     "i_bamboo_stripped_block_side": { "textures": "textures/blocks/stripped_bamboo_block" },
-
-    "wool": {
-      "textures": [
-        "textures/blocks/wool_colored_white",
-        "textures/blocks/wool_colored_orange",
-        "textures/blocks/wool_colored_magenta",
-        "textures/blocks/wool_colored_light_blue",
-        "textures/blocks/wool_colored_yellow",
-        "textures/blocks/wool_colored_lime",
-        "textures/blocks/wool_colored_pink",
-        "textures/blocks/wool_colored_gray",
-        "textures/blocks/wool_colored_silver",
-        "textures/blocks/wool_colored_cyan",
-        "textures/blocks/wool_colored_purple",
-        "textures/blocks/wool_colored_blue",
-        "textures/blocks/wool_colored_brown",
-        "textures/blocks/wool_colored_green",
-        "textures/blocks/wool_colored_red",
-        "textures/blocks/wool_colored_black"
-      ]
-    },
 
     "i_white_wool": { "textures": "textures/blocks/wool_colored_white" },
     "i_orange_wool": { "textures": "textures/blocks/wool_colored_orange" },

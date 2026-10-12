@@ -4,9 +4,21 @@
 
   "iridia:dragon_tree_slab": { "sound": "wood" },
   "iridia:pythadendron_slab": { "sound": "wood" },
+  "iridia:end_stone_slab": { "sound": "stone" },
+  "iridia:grass_slab": { "sound": "grass" },
+  "iridia:dirt_slab": { "sound": "grass" },
+  "iridia:moss_slab": { "sound": "moss_block" },
+  "iridia:pale_moss_slab": { "sound": "moss_block" },
 
   "iridia:dragon_tree_stairs": { "sound": "wood" },
   "iridia:pythadendron_stairs": { "sound": "wood" },
+  "iridia:end_stone_stairs": { "sound": "stone" },
+  "iridia:grass_stairs": { "sound": "grass" },
+  "iridia:dirt_stairs": { "sound": "grass" },
+  "iridia:moss_stairs": { "sound": "moss_block" },
+  "iridia:pale_moss_stairs": { "sound": "moss_block" },
+
+  "iridia:end_stone_wall": { "sound": "stone" },
 
   "iridia:dragon_tree_fence": { "sound": "wood" },
   "iridia:pythadendron_fence": { "sound": "wood" },
@@ -30,6 +42,7 @@
   "iridia:pythadendron_leaves": { "textures": "pythadendron_leaves", "sound": "grass" },
 
   "iridia:dragon_tree_sapling": { "sound": "grass" },
+  "iridia:pythadendron_sapling": { "sound": "grass" },
   
   "iridia:chorus_grass": { "sound": "grass" },
   "iridia:ivis_moss": { "sound": "grass" },
@@ -273,8 +286,9 @@
   "iridia:i_smooth_stone": { "textures": "smooth_stone", "sound": "stone" },
   "iridia:i_cobblestone": { "textures": "cobblestone", "sound": "stone" },
   "iridia:i_mossy_cobblestone": { "textures": "mossy_cobblestone", "sound": "stone" },
+  "iridia:i_bricks": { "textures": "brick", "sound": "stone" },
   "iridia:i_end_stone": { "textures": "end_stone", "sound": "stone" },
-  "iridia:i_end_stone_bricks": { "textures": "end_stone_bricks", "sound": "stone" },
+  "iridia:i_end_stone_bricks": { "textures": "end_stone_brick_slab", "sound": "stone" },
 
   "iridia:i_dirt": { "textures": "dirt", "sound": "gravel" },
   "iridia:i_crafting_table": { "textures": { "down": "crafting_table_bottom", "east": "crafting_table_side", "north": "crafting_table_front", "south": "crafting_table_front", "up": "crafting_table_top", "west": "crafting_table_side" }, "sound": "wood" }
