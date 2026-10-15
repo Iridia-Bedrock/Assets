@@ -42,13 +42,13 @@
             },
             {
               "lists": {
-                "anchor_from": "top_right",
-                "anchor_to": "top_right",
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
                 "controls": [
                   {
                     "players": {
-                      "anchor_from": "top_right",
-                      "anchor_to": "top_right",
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
                       "bindings": [
                         {
                           "binding_name": "#scoreboard_sidebar_size",
@@ -124,8 +124,8 @@
     "type": "panel"
   },
   "scoreboard_sidebar_player": {
-    "anchor_from": "top_right",
-    "anchor_to": "top_right",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
     "bindings": [
       {
         "binding_collection_name": "scoreboard_players",
