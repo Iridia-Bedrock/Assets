@@ -50,6 +50,18 @@
                     "type": "panel",
                     "size": "$cell_image_size",
                     "layer": 0,
+                    "bindings": [
+                        {
+                            "binding_name": "#hover_text",
+                            "binding_type": "collection",
+                            "binding_collection_name": "$item_collection_name"
+                        },
+                        {
+                            "binding_type": "view",
+                            "source_property_name": "((#hover_text - '§n§o§s§l§o§t') = #hover_text)",
+                            "target_property_name": "#visible"
+                        }
+                    ],
                     "controls": [
                         {
                             "background@$background_images": {
@@ -62,7 +74,7 @@
                                     },
                                     {
                                         "binding_type": "view",
-                                        "source_property_name": "(((#hover_text - '§-') = #hover_text) and ((#hover_text - '§b§g') = #hover_text))",
+                                        "source_property_name": "(((#hover_text - '§b§g') = #hover_text) and ((#hover_text - '§n§o§b§g') = #hover_text) and ((#hover_text - '§r§e§d') = #hover_text) and ((#hover_text - '§d§a§r§k') = #hover_text) and ((#hover_text - '§g§r§e§e§n') = #hover_text) and ((#hover_text - '§b§l§u§e') = #hover_text) and ((#hover_text - '§y§e§l§l§o§w') = #hover_text) and ((#hover_text - '§p§u§r§p§l§e') = #hover_text) and ((#hover_text - '§o§r§a§n§g§e') = #hover_text) and ((#hover_text - '§p§i§n§k') = #hover_text) and ((#hover_text - '§c§y§a§n') = #hover_text) and ((#hover_text - '§w§h§i§t§e') = #hover_text))",
                                         "target_property_name": "#visible"
                                     }
                                 ]
@@ -79,7 +91,7 @@
                                     },
                                     {
                                         "binding_type": "view",
-                                        "source_property_name": "(not ((#hover_text - '§-') = #hover_text))",
+                                        "source_property_name": "(((not ((#hover_text - '§b§g') = #hover_text)) and (not ((#hover_text - '§-') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
                                         "target_property_name": "#visible"
                                     }
                                 ]
@@ -96,7 +108,177 @@
                                     },
                                     {
                                         "binding_type": "view",
-                                        "source_property_name": "(not ((#hover_text - '§b§g') = #hover_text))",
+                                        "source_property_name": "(((not ((#hover_text - '§b§g') = #hover_text)) and ((#hover_text - '§-') = #hover_text)) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "red_item_background@common.red_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§r§e§d') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "green_item_background@common.green_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§g§r§e§e§n') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "blue_item_background@common.blue_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§b§l§u§e') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "yellow_item_background@common.yellow_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§y§e§l§l§o§w') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "purple_item_background@common.purple_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§p§u§r§p§l§e') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "orange_item_background@common.orange_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§o§r§a§n§g§e') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "pink_item_background@common.pink_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§p§i§n§k') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "cyan_item_background@common.cyan_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§c§y§a§n') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "white_item_background@common.white_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§w§h§i§t§e') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "dark_item_background@common.dark_item_background": {
+                                "layer": 1,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(((not ((#hover_text - '§d§a§r§k') = #hover_text))) and ((#hover_text - '§n§o§b§g') = #hover_text))",
                                         "target_property_name": "#visible"
                                     }
                                 ]
@@ -109,17 +291,37 @@
                                 "layer": 0,
                                 "controls": [
                                     {
-                                        "stack_count_label@common.stack_count_label": {
-                                            "layer": 27
-                                        }
-                                    },
-                                    {
-                                        "$item_renderer@$item_renderer": {
-                                            "size": "$item_renderer_size",
-                                            "offset": "$item_renderer_offset",
-                                            "anchor_to": "center",
-                                            "anchor_from": "center",
-                                            "layer": 7
+                                        "item_renderer_wrapper": {
+                                            "type": "panel",
+                                            "size": "100%",
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#hover_text",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "$item_collection_name"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "((#hover_text - '§n§o§i§t§e§m') = #hover_text)",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ],
+                                            "controls": [
+                                                {
+                                                    "stack_count_label@common.stack_count_label": {
+                                                        "layer": 27
+                                                    }
+                                                },
+                                                {
+                                                    "$item_renderer@$item_renderer": {
+                                                        "size": "$item_renderer_size",
+                                                        "offset": "$item_renderer_offset",
+                                                        "anchor_to": "center",
+                                                        "anchor_from": "center",
+                                                        "layer": 7
+                                                    }
+                                                }
+                                            ]
                                         }
                                     },
                                     {
@@ -179,6 +381,122 @@
                                                 }
                                             ]
                                         }
+                                    },
+                                    {
+                                        "lock_icon": {
+                                            "type": "image",
+                                            "size": [
+                                                8,
+                                                8
+                                            ],
+                                            "offset": [
+                                                -1,
+                                                1
+                                            ],
+                                            "anchor_from": "top_right",
+                                            "anchor_to": "top_right",
+                                            "texture": "textures/ui/icon_lock",
+                                            "layer": 30,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#hover_text",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "$item_collection_name"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(not ((#hover_text - '§l§o§c§k') = #hover_text))",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "check_icon": {
+                                            "type": "image",
+                                            "size": [
+                                                8,
+                                                8
+                                            ],
+                                            "offset": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "anchor_from": "bottom_right",
+                                            "anchor_to": "bottom_right",
+                                            "texture": "textures/ui/confirm",
+                                            "layer": 30,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#hover_text",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "$item_collection_name"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(not ((#hover_text - '§c§h§e§c§k') = #hover_text))",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "cross_icon": {
+                                            "type": "image",
+                                            "size": [
+                                                8,
+                                                8
+                                            ],
+                                            "offset": [
+                                                -1,
+                                                -1
+                                            ],
+                                            "anchor_from": "bottom_right",
+                                            "anchor_to": "bottom_right",
+                                            "texture": "textures/ui/cancel",
+                                            "layer": 30,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#hover_text",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "$item_collection_name"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(not ((#hover_text - '§c§r§o§s§s') = #hover_text))",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "warn_icon": {
+                                            "type": "image",
+                                            "size": [
+                                                7,
+                                                7
+                                            ],
+                                            "offset": [
+                                                1,
+                                                1
+                                            ],
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "texture": "textures/ui/how_to_play_button_default",
+                                            "layer": 40,
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#hover_text",
+                                                    "binding_type": "collection",
+                                                    "binding_collection_name": "$item_collection_name"
+                                                },
+                                                {
+                                                    "binding_type": "view",
+                                                    "source_property_name": "(not ((#hover_text - '§w§a§r§n') = #hover_text))",
+                                                    "target_property_name": "#visible"
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -197,21 +515,60 @@
                 }
             },
             {
-                "item_cell_overlay_ref@$cell_overlay_ref": {
-                    "layer": 3
-                }
-            },
-            {
-                "item_selected_image@common.slot_selected": {
-                    "layer": 4
-                }
-            },
-            {
-                "item_button_ref@$button_ref": {
-                    "tts_ignore_count": true,
-                    "tts_skip_message": true,
-                    "tts_inherit_siblings": true,
-                    "layer": 5
+                "interactive_slot_wrapper": {
+                    "type": "panel",
+                    "size": "100%",
+                    "bindings": [
+                        {
+                            "binding_name": "#hover_text",
+                            "binding_type": "collection",
+                            "binding_collection_name": "$item_collection_name"
+                        },
+                        {
+                            "binding_type": "view",
+                            "source_property_name": "(((#hover_text - '§n§o§s§l§o§t') = #hover_text) and ((#hover_text - '§n§o§h§o§v§e§r') = #hover_text))",
+                            "target_property_name": "#visible"
+                        }
+                    ],
+                    "controls": [
+                        {
+                            "item_cell_overlay_ref@$cell_overlay_ref": {
+                                "layer": 3
+                            }
+                        },
+                        {
+                            "item_selected_image@common.slot_selected": {
+                                "layer": 4
+                            }
+                        },
+                        {
+                            "item_button_ref@$button_ref": {
+                                "tts_ignore_count": true,
+                                "tts_skip_message": true,
+                                "tts_inherit_siblings": true,
+                                "layer": 5
+                            }
+                        },
+                        {
+                            "click_blocker": {
+                                "type": "input_panel",
+                                "size": "100%",
+                                "layer": 2,
+                                "bindings": [
+                                    {
+                                        "binding_name": "#hover_text",
+                                        "binding_type": "collection",
+                                        "binding_collection_name": "$item_collection_name"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_property_name": "(not ((#hover_text - '§n§o§c§l§i§c§k') = #hover_text))",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -249,5 +606,53 @@
     "collapse_item_background": {
         "type": "image",
         "texture": "textures/ui/recipe_book_group_collapsed"
+    },
+    "red_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_red_button"
+    },
+    "green_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$a_color_format"
+    },
+    "blue_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$9_color_format"
+    },
+    "yellow_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$e_color_format"
+    },
+    "purple_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$5_color_format"
+    },
+    "orange_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$6_color_format"
+    },
+    "pink_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$d_color_format"
+    },
+    "cyan_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$b_color_format"
+    },
+    "white_item_background": {
+        "type": "image",
+        "texture": "textures/ui/recipe_book_item_bg",
+        "color": "$f_color_format"
+    },
+    "dark_item_background": {
+        "type": "image",
+        "texture": "textures/ui/cell_image_invert"
     }
 }

@@ -243,6 +243,21 @@
         "grid_item_template": "chest.flags_grid_item",
         "collection_name": "container_items"
     },
+    "large_chest_grid": {
+        "type": "grid",
+        "size": [
+            162,
+            108
+        ],
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "grid_dimensions": [
+            9,
+            6
+        ],
+        "grid_item_template": "chest.flags_grid_item",
+        "collection_name": "container_items"
+    },
     "flags_grid_item@common.flags_container_item": {
         "$item_collection_name": "container_items"
     }

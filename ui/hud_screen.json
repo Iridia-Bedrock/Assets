@@ -1,146 +1,146 @@
 {
-    "namespace": "hud",
-    "chat_grid_item/chat_background": {
-        "bindings": [
+  "namespace": "hud",
+  "chat_grid_item/chat_background": {
+    "bindings": [
+      {
+        "binding_name": "#chat_text",
+        "binding_name_override": "#text",
+        "binding_type": "collection",
+        "binding_collection_name": "chat_text_grid",
+        "binding_condition": "once"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not(#text = 'iridia:clearchat'))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "item_name_text_root": {
+    "type": "panel",
+    "size": [
+      "100%cm",
+      "100%cm"
+    ],
+    "$show_interact_padding|default": false,
+    "$show_survival_padding|default": false,
+    "$show_text_background|default": false,
+    "$text_color|default": "$tool_tip_text",
+    "$text_binding|default": "#item_text",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "$wait_duration|default": 1,
+    "$destroy_id|default": "item_name_text",
+    "controls": [
+      {
+        "item_text_aligner": {
+          "type": "stack_panel",
+          "size": [
+            "100%cm",
+            "100%c"
+          ],
+          "controls": [
             {
-                "binding_name": "#chat_text",
-                "binding_name_override": "#text",
-                "binding_type": "collection",
-                "binding_collection_name": "chat_text_grid",
-                "binding_condition": "once"
+              "item_text_control": {
+                "type": "panel",
+                "size": [
+                  "100%cm",
+                  "100%cm"
+                ],
+                "controls": [
+                  {
+                    "item_text_label": {
+                      "type": "label",
+                      "max_size": [
+                        200,
+                        "default"
+                      ],
+                      "text_alignment": "center",
+                      "layer": 31,
+                      "color": "$text_color",
+                      "text": "#text",
+                      "alpha": "@hud.anim_item_name_text_alpha_in",
+                      "shadow": true,
+                      "bindings": [
+                        {
+                          "binding_name": "$text_binding",
+                          "binding_name_override": "#text"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
             },
             {
-                "binding_type": "view",
-                "source_property_name": "(not(#text = 'iridia:clearchat'))",
-                "target_property_name": "#visible"
-            }
-        ]
-    },
-    "item_name_text_root": {
-        "type": "panel",
-        "size": [
-            "100%cm",
-            "100%cm"
-        ],
-        "$show_interact_padding|default": false,
-        "$show_survival_padding|default": false,
-        "$show_text_background|default": false,
-        "$text_color|default": "$tool_tip_text",
-        "$text_binding|default": "#item_text",
-        "anchor_from": "bottom_middle",
-        "anchor_to": "bottom_middle",
-        "$wait_duration|default": 1,
-        "$destroy_id|default": "item_name_text",
-        "controls": [
+              "interact_padding@common.empty_panel": {
+                "visible": "$show_interact_padding",
+                // To not overlap with the interact button
+                // the text needs to move up by 18
+                "size": [
+                  "100%sm",
+                  18
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#interact_visible",
+                    "binding_name_override": "#visible",
+                    "binding_condition": "always"
+                  }
+                ]
+              }
+            },
             {
-                "item_text_aligner": {
-                    "type": "stack_panel",
-                    "size": [
-                        "100%cm",
-                        "100%c"
-                    ],
-                    "controls": [
-                        {
-                            "item_text_control": {
-                                "type": "panel",
-                                "size": [
-                                    "100%cm",
-                                    "100%cm"
-                                ],
-                                "controls": [
-                                    {
-                                        "item_text_label": {
-                                            "type": "label",
-                                            "max_size": [
-                                                200,
-                                                "default"
-                                            ],
-                                            "text_alignment": "center",
-                                            "layer": 31,
-                                            "color": "$text_color",
-                                            "text": "#text",
-                                            "alpha": "@hud.anim_item_name_text_alpha_in",
-                                            "shadow": true,
-                                            "bindings": [
-                                                {
-                                                    "binding_name": "$text_binding",
-                                                    "binding_name_override": "#text"
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "interact_padding@common.empty_panel": {
-                                "visible": "$show_interact_padding",
-                                // To not overlap with the interact button
-                                // the text needs to move up by 18
-                                "size": [
-                                    "100%sm",
-                                    18
-                                ],
-                                "bindings": [
-                                    {
-                                        "binding_name": "#interact_visible",
-                                        "binding_name_override": "#visible",
-                                        "binding_condition": "always"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "survival_buffer@common.empty_panel": {
-                                "visible": "$show_survival_padding",
-                                // Survival HUD has elements above the hot bar
-                                // meaning the text needs to move up
-                                "size": [
-                                    "100%sm",
-                                    17
-                                ],
-                                "bindings": [
-                                    {
-                                        "binding_name": "#show_survival_ui",
-                                        "binding_name_override": "#visible"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
+              "survival_buffer@common.empty_panel": {
+                "visible": "$show_survival_padding",
+                // Survival HUD has elements above the hot bar
+                // meaning the text needs to move up
+                "size": [
+                  "100%sm",
+                  17
+                ],
+                "bindings": [
+                  {
+                    "binding_name": "#show_survival_ui",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
             }
-        ]
-    },
-    "hud_actionbar_text": {
-        "type": "image",
-        "size": [
-            "100%c + 12px",
-            "100%c + 5px"
-        ],
-        "offset": [
-            0,
-            "50%-68px"
-        ],
-        "alpha": "@hud.anim_actionbar_text_background_alpha_out",
-        "controls": [
-            {
-                "actionbar_message": {
-                    "type": "label",
-                    "anchor_from": "center",
-                    "anchor_to": "center",
-                    "color": "$tool_tip_text",
-                    "enable_profanity_filter": true,
-                    "layer": 31,
-                    "text": "$actionbar_text",
-                    "shadow": true,
-                    "localize": false,
-                    "alpha": "@hud.anim_actionbar_text_alpha_out"
-                }
-            }
-        ]
-    },
-    "boss_health_panel": {
+          ]
+        }
+      }
+    ]
+  },
+  "hud_actionbar_text": {
+    "type": "image",
+    "size": [
+      "100%c + 12px",
+      "100%c + 5px"
+    ],
+    "offset": [
+      0,
+      "50%-68px"
+    ],
+    "alpha": "@hud.anim_actionbar_text_background_alpha_out",
+    "controls": [
+      {
+        "actionbar_message": {
+          "type": "label",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "color": "$tool_tip_text",
+          "enable_profanity_filter": true,
+          "layer": 31,
+          "text": "$actionbar_text",
+          "shadow": true,
+          "localize": false,
+          "alpha": "@hud.anim_actionbar_text_alpha_out"
+        }
+      }
+    ]
+  },
+  "boss_health_panel": {
     "$bossbar_collection": "boss_bars",
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
@@ -153,35 +153,93 @@
       }
     ],
     "controls": [
-      { "boss_panel_default@hud.boss_panel_default": {} },
-      { "boss_panel_black@hud.boss_panel_black": {} },
-      { "boss_panel_dark_blue@hud.boss_panel_dark_blue": {} },
-      { "boss_panel_dark_green@hud.boss_panel_dark_green": {} },
-      { "boss_panel_dark_aqua@hud.boss_panel_dark_aqua": {} },
-      { "boss_panel_dark_red@hud.boss_panel_dark_red": {} },
-      { "boss_panel_dark_purple@hud.boss_panel_dark_purple": {} },
-      { "boss_panel_gold@hud.boss_panel_gold": {} },
-      { "boss_panel_gray@hud.boss_panel_gray": {} },
-      { "boss_panel_dark_gray@hud.boss_panel_dark_gray": {} },
-      { "boss_panel_blue@hud.boss_panel_blue": {} },
-      { "boss_panel_green@hud.boss_panel_green": {} },
-      { "boss_panel_aqua@hud.boss_panel_aqua": {} },
-      { "boss_panel_red@hud.boss_panel_red": {} },
-      { "boss_panel_light_purple@hud.boss_panel_light_purple": {} },
-      { "boss_panel_yellow@hud.boss_panel_yellow": {} },
-      { "boss_panel_white@hud.boss_panel_white": {} },
-      { "boss_panel_minecoin_gold@hud.boss_panel_minecoin_gold": {} },
-      { "boss_panel_material_quartz@hud.boss_panel_material_quartz": {} },
-      { "boss_panel_material_iron@hud.boss_panel_material_iron": {} },
-      { "boss_panel_material_netherite@hud.boss_panel_material_netherite": {} },
-      { "boss_panel_material_redstone@hud.boss_panel_material_redstone": {} },
-      { "boss_panel_material_copper@hud.boss_panel_material_copper": {} },
-      { "boss_panel_material_gold@hud.boss_panel_material_gold": {} },
-      { "boss_panel_material_emerald@hud.boss_panel_material_emerald": {} },
-      { "boss_panel_material_diamond@hud.boss_panel_material_diamond": {} },
-      { "boss_panel_material_lapis@hud.boss_panel_material_lapis": {} },
-      { "boss_panel_material_amethyst@hud.boss_panel_material_amethyst": {} },
-      { "boss_panel_material_resin@hud.boss_panel_material_resin": {} }
+      {
+        "boss_panel_default@hud.boss_panel_default": {}
+      },
+      {
+        "boss_panel_black@hud.boss_panel_black": {}
+      },
+      {
+        "boss_panel_dark_blue@hud.boss_panel_dark_blue": {}
+      },
+      {
+        "boss_panel_dark_green@hud.boss_panel_dark_green": {}
+      },
+      {
+        "boss_panel_dark_aqua@hud.boss_panel_dark_aqua": {}
+      },
+      {
+        "boss_panel_dark_red@hud.boss_panel_dark_red": {}
+      },
+      {
+        "boss_panel_dark_purple@hud.boss_panel_dark_purple": {}
+      },
+      {
+        "boss_panel_gold@hud.boss_panel_gold": {}
+      },
+      {
+        "boss_panel_gray@hud.boss_panel_gray": {}
+      },
+      {
+        "boss_panel_dark_gray@hud.boss_panel_dark_gray": {}
+      },
+      {
+        "boss_panel_blue@hud.boss_panel_blue": {}
+      },
+      {
+        "boss_panel_green@hud.boss_panel_green": {}
+      },
+      {
+        "boss_panel_aqua@hud.boss_panel_aqua": {}
+      },
+      {
+        "boss_panel_red@hud.boss_panel_red": {}
+      },
+      {
+        "boss_panel_light_purple@hud.boss_panel_light_purple": {}
+      },
+      {
+        "boss_panel_yellow@hud.boss_panel_yellow": {}
+      },
+      {
+        "boss_panel_white@hud.boss_panel_white": {}
+      },
+      {
+        "boss_panel_minecoin_gold@hud.boss_panel_minecoin_gold": {}
+      },
+      {
+        "boss_panel_material_quartz@hud.boss_panel_material_quartz": {}
+      },
+      {
+        "boss_panel_material_iron@hud.boss_panel_material_iron": {}
+      },
+      {
+        "boss_panel_material_netherite@hud.boss_panel_material_netherite": {}
+      },
+      {
+        "boss_panel_material_redstone@hud.boss_panel_material_redstone": {}
+      },
+      {
+        "boss_panel_material_copper@hud.boss_panel_material_copper": {}
+      },
+      {
+        "boss_panel_material_gold@hud.boss_panel_material_gold": {}
+      },
+      {
+        "boss_panel_material_emerald@hud.boss_panel_material_emerald": {}
+      },
+      {
+        "boss_panel_material_diamond@hud.boss_panel_material_diamond": {}
+      },
+      {
+        "boss_panel_material_lapis@hud.boss_panel_material_lapis": {}
+      },
+      {
+        "boss_panel_material_amethyst@hud.boss_panel_material_amethyst": {}
+      },
+      {
+        "boss_panel_material_resin@hud.boss_panel_material_resin": {}
+      }
     ],
     "size": [
       182,
