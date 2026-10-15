@@ -42,13 +42,13 @@
             },
             {
               "lists": {
-                "anchor_from": "top_left",
-                "anchor_to": "top_left",
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
                 "controls": [
                   {
                     "players": {
-                      "anchor_from": "top_left",
-                      "anchor_to": "top_left",
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
                       "bindings": [
                         {
                           "binding_name": "#scoreboard_sidebar_size",
@@ -63,34 +63,9 @@
                       },
                       "font_type": "default",
                       "offset": [
-                        5,
+                        2,
                         0
                       ],
-                      "orientation": "vertical",
-                      "shadow": true,
-                      "size": [
-                        "100%cm",
-                        "100%c"
-                      ],
-                      "type": "stack_panel"
-                    }
-                  },
-                  {
-                    "scores": {
-                      "anchor_from": "top_right",
-                      "anchor_to": "top_right",
-                      "bindings": [
-                        {
-                          "binding_name": "#scoreboard_sidebar_size",
-                          "binding_name_override": "#collection_length",
-                          "binding_type": "global"
-                        }
-                      ],
-                      "collection_name": "scoreboard_scores",
-                      "factory": {
-                        "control_name": "scoreboard.scoreboard_sidebar_score",
-                        "name": "player_score_factory"
-                      },
                       "orientation": "vertical",
                       "shadow": true,
                       "size": [
@@ -111,6 +86,24 @@
                   "100%cm"
                 ],
                 "type": "panel"
+              }
+            },
+            {
+              "footer": {
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "font_type": "default",
+                "inherit_max_sibling_width": true,
+                "layer": 1,
+                "locked_alpha": 2.0,
+                "shadow": true,
+                "size": [
+                  "default",
+                  10
+                ],
+                "text": "§r§7play.iridia.fr",
+                "text_alignment": "center",
+                "type": "label"
               }
             }
           ],
@@ -157,28 +150,5 @@
     "text": "#player_name_sidebar",
     "text_alignment": "left",
     "type": "label"
-  },
-  "scoreboard_sidebar_score": {
-    "anchor_from": "top_right",
-    "anchor_to": "top_right",
-    "bindings": [
-      {
-        "binding_collection_name": "scoreboard_scores",
-        "binding_name": "#player_score_sidebar",
-        "binding_type": "collection"
-      }
-    ],
-    "color": "$player_score_color",
-    "inherit_max_sibling_width": true,
-    "layer": 2,
-    "locked_alpha": 0.0,
-    "size": [
-      "default",
-      10
-    ],
-    "text": "",
-    "text_alignment": "right",
-    "type": "label",
-    "visible": false
   }
 }
