@@ -2972,5 +2972,246 @@
         }
       }
     ]
+  },
+  "chat_grid_item": {
+    "controls": [
+      {
+        "chat_background": {
+          "type": "image",
+          "texture": "textures/ui/Black",
+          "alpha": "$chat_background_opacity",
+          "size": [
+            "100%",
+            "100%cm"
+          ],
+          "anims": [
+            "@hud.anim_chat_bg_wait"
+          ],
+          "controls": [
+            {
+              "chat_text@hud.chat_label": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  2,
+                  0
+                ],
+                "size": [
+                  "100% - 5px",
+                  "default"
+                ],
+                "visible": true,
+                "bindings": [
+                  {
+                    "binding_name": "#chat_text",
+                    "binding_name_override": "#text",
+                    "binding_type": "collection",
+                    "binding_collection_name": "chat_text_grid",
+                    "binding_condition": "once"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "#text",
+                    "target_property_name": "#hp_raw"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "((#hp_raw / '\u0001') = 1)",
+                    "target_property_name": "#hp_valid"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('\u0003' + #hp_raw)",
+                    "target_property_name": "#hp_scan"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "((#hp_scan = #hp_scan) - 1)",
+                    "target_property_name": "#hp_p0"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p0 + ((((('%.' + (#hp_p0 + 512) + 's') * #hp_scan) / '\u0001') = 0) * 512))",
+                    "target_property_name": "#hp_p1"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p1 + ((((('%.' + (#hp_p1 + 256) + 's') * #hp_scan) / '\u0001') = 0) * 256))",
+                    "target_property_name": "#hp_p2"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p2 + ((((('%.' + (#hp_p2 + 128) + 's') * #hp_scan) / '\u0001') = 0) * 128))",
+                    "target_property_name": "#hp_p3"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p3 + ((((('%.' + (#hp_p3 + 64) + 's') * #hp_scan) / '\u0001') = 0) * 64))",
+                    "target_property_name": "#hp_p4"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p4 + ((((('%.' + (#hp_p4 + 32) + 's') * #hp_scan) / '\u0001') = 0) * 32))",
+                    "target_property_name": "#hp_p5"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p5 + ((((('%.' + (#hp_p5 + 16) + 's') * #hp_scan) / '\u0001') = 0) * 16))",
+                    "target_property_name": "#hp_p6"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p6 + ((((('%.' + (#hp_p6 + 8) + 's') * #hp_scan) / '\u0001') = 0) * 8))",
+                    "target_property_name": "#hp_p7"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p7 + ((((('%.' + (#hp_p7 + 4) + 's') * #hp_scan) / '\u0001') = 0) * 4))",
+                    "target_property_name": "#hp_p8"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p8 + ((((('%.' + (#hp_p8 + 2) + 's') * #hp_scan) / '\u0001') = 0) * 2))",
+                    "target_property_name": "#hp_p9"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_p9 + ((((('%.' + (#hp_p9 + 1) + 's') * #hp_scan) / '\u0001') = 0) * 1))",
+                    "target_property_name": "#hp_p10"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "((('%.' + #hp_p10 + 's') * #hp_scan) - '\u0003')",
+                    "target_property_name": "#hp_lead"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_scan - ('\u0003' + #hp_lead + '\u0001'))",
+                    "target_property_name": "#hp_after_marker"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('%.8s' * #hp_after_marker)",
+                    "target_property_name": "#hp_m_text"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(('\u0003' + ('%.16s' * #hp_after_marker)) - ('\u0003' + #hp_m_text))",
+                    "target_property_name": "#hp_m_hover"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(('\u0003' + ('%.24s' * #hp_after_marker)) - ('\u0003' + ('%.16s' * #hp_after_marker)))",
+                    "target_property_name": "#hp_m_cmd"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(('\u0004' + #hp_after_marker) - ('\u0004' + ('%.24s' * #hp_after_marker)))",
+                    "target_property_name": "#hp_body"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_m_text * #hp_body)",
+                    "target_property_name": "#hp_raw_text"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_raw_text - '§r§0§1')",
+                    "target_property_name": "#hp_text"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(('\u0005' + #hp_body) - ('\u0005' + #hp_raw_text))",
+                    "target_property_name": "#hp_body2"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_m_hover * #hp_body2)",
+                    "target_property_name": "#hp_raw_hover"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_raw_hover - '§r§0§1')",
+                    "target_property_name": "#hp_hover"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(('\u0006' + #hp_body2) - ('\u0006' + #hp_raw_hover))",
+                    "target_property_name": "#hp_body3"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_m_cmd * #hp_body3)",
+                    "target_property_name": "#hp_raw_cmd"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_raw_cmd - '§r§0§1')",
+                    "target_property_name": "#hp_command"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(('\u0004' + #hp_body3) - ('\u0004' + #hp_raw_cmd + '\u0002'))",
+                    "target_property_name": "#hp_suffix"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_valid and (not (#hp_command = '')))",
+                    "target_property_name": "#hp_has_command"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#hp_lead + #hp_text + #hp_suffix)",
+                    "target_property_name": "#hp_display_text"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(not #hp_valid)",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "property_bag": {
+                  "#hp_valid": false
+                }
+              }
+            },
+            {
+              "hp_chat_text@hud.chat_label": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [
+                  2,
+                  0
+                ],
+                "size": [
+                  "100% - 5px",
+                  "default"
+                ],
+                "visible": false,
+                "property_bag": {
+                  "#hp_valid": false
+                },
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "chat_text",
+                    "resolve_sibling_scope": true,
+                    "source_property_name": "#hp_display_text",
+                    "target_property_name": "#text"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "chat_text",
+                    "resolve_sibling_scope": true,
+                    "source_property_name": "#hp_valid",
+                    "target_property_name": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
 }

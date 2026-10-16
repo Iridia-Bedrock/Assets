@@ -1,12 +1,35 @@
 {
   "namespace": "chat",
-  "messages_text/text": {
+  "messages_text": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%c"
+    ],
     "bindings": [
       {
-        "binding_type": "view",
-        "source_property_name": "(not (#text = 'iridia:clearchat'))",
-        "target_property_name": "#visible"
+        "binding_name": "#chat_visible",
+        "binding_name_override": "#visible"
       }
+    ],
+    "controls": [
+      {
+        "hp_row@hover.row": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left"
+        }
+      }
+    ],
+    "min_size": [
+      0,
+      10
+    ]
+  },
+  "message_tts_wrapper": {
+    "$focus_border_consume_hover_events": false,
+    "min_size": [
+      0,
+      10
     ]
   }
 }
